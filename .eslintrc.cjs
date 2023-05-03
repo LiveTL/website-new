@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: {
     browser: true,
     es2021: true,
@@ -74,6 +75,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
   },
   settings: {
+    'svelte3/typescript': () => require('typescript'),
     'import/extensions': [
       'error',
       'always',
@@ -94,5 +96,6 @@ module.exports = {
     'node_modules',
     'dist',
     'tsconfig.json',
+    '*.cjs',
   ],
 };
