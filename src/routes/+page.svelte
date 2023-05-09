@@ -23,8 +23,9 @@
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">LiveTL</h1>
       <p class="py-6">Get live translations for YouTube and Twitch.</p>
-      <button class="btn btn-primary rounded-xl transition-all hover:scale-105"
-        >Install</button
+      <a
+        class="btn btn-primary rounded-xl transition-all hover:scale-105"
+        href="/install">Install</a
       >
     </div>
   </div>
