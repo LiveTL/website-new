@@ -5,10 +5,17 @@
     chrome:
       'https://chrome.google.com/webstore/detail/livetl-translation-filter/moicohcfhhbmmngneghfjfjpdobmmnlg',
     firefox: 'https://addons.mozilla.org/en-US/firefox/addon/livetl/',
+    android: 'https://play.google.com/store/apps/details?id=com.livetl.android',
+    ios: 'https://apps.apple.com/us/app/livetl/id1550420049',
   };
 
   import { Icon } from '@steeze-ui/svelte-icon';
-  import { Googlechrome, Firefoxbrowser } from '@steeze-ui/simple-icons';
+  import {
+    Appstore,
+    Googleplay,
+    Googlechrome,
+    Firefoxbrowser,
+  } from '@steeze-ui/simple-icons';
 
   export let data: PageData;
 </script>
@@ -40,7 +47,10 @@
       <li>Android</li>
       <li>iOS Device</li>
     </ul>
-    <div class="flex flex-col space-y-2 sm:space-y-0 sm:flex-row justify-center">
+
+    <div
+      class="flex flex-col space-y-4 sm:space-y-0 sm:flex-row justify-center py-4"
+    >
       <a
         href={downloadLinks['chrome']}
         target="_blank"
@@ -68,6 +78,7 @@
         />Download for Firefox</a
       >
     </div>
+
     <h2 class="text-2xl font-bold my-4">Installation Instructions</h2>
     <ol class="list-decimal list-inside">
       <li>
@@ -88,5 +99,33 @@
       </li>
       <li>Visit a YouTube or Twitch stream and start using LiveTL!</li>
     </ol>
+
+    <h2 class="text-2xl font-bold my-4">More install options</h2>
+    <div class="flex flex-col space-y-4 sm:space-y-0 sm:flex-row justify-center py-4">
+      <a
+        href={downloadLinks['android']}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-neutral rounded-2xl text-slate-50 mr-4 max-w-xs"
+        ><Icon
+          src={Googleplay}
+          theme="solid"
+          size="18"
+          class="justify-end mr-2"
+        />Google Play</a
+      >
+      <a
+        href={downloadLinks['ios']}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="btn btn-neutral rounded-2xl text-slate-50 max-w-xs"
+        ><Icon
+          src={Appstore}
+          theme="solid"
+          size="18"
+          class="justify-end mr-2"
+        />App Store</a
+      >
+    </div>
   </div>
 </div>
