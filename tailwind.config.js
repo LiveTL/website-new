@@ -8,12 +8,12 @@ export default {
     themes: [
       {
         livetl: {
-          primary: '#ff0000',
-          secondary: '#394aae',
-          accent: '#67CBA0',
+          primary: '#ff0000', // Youtube Red
+          secondary: '#394aae', // LiveTL "blue"
+          accent: '#00F0D4', // LiveTL logo aqua
           neutral: '#181A2A',
           'base-100': '#FFFFFF',
-          info: '#3ABFF8',
+          info: '#0071C1', // LiveTL logo deep blue
           success: '#36D399',
           warning: '#FBBD23',
           error: '#F87272',

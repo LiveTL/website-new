@@ -21,8 +21,11 @@
 <div class="hero min-h-screen bg-base-100 snap-start">
   <div class="hero-content text-center">
     <div class="max-w-md">
-      <h1 class="text-5xl font-bold">LiveTL</h1>
-      <p class="py-6">Get live translations for YouTube and Twitch.</p>
+      <h1 class="text-6xl font-bold text-gradient text-transparent bg-clip-text bg-gradient-to-r from-info to-accent">
+        LiveTL
+      </h1>
+      
+      <p class="text-xl py-6">Get live translations for YouTube and Twitch.</p>
       <a
         class="btn btn-primary rounded-xl transition-all hover:scale-105"
         href="/install">Install</a
