@@ -1,15 +1,16 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl-logo.png';
 
-  const liveTLGithub = "https://github.com/LiveTL";
+  const liveTLGithub = 'https://github.com/LiveTL';
+  const liveTLDiscord = 'https://discord.com/invite/uJrV3tmthg';
 
-  import { Github } from '@steeze-ui/simple-icons';
+  import { Discord, Github } from '@steeze-ui/simple-icons';
   import { Icon } from '@steeze-ui/svelte-icon';
 </script>
 
-<div class="navbar bg-neutral text-secondary-content space-x-4">
+<div class="navbar bg-neutral text-secondary-content">
   <div class="navbar-start space-x-4">
-    <a href="/"
+    <a href="/" class="min-w-fit"
       ><img
         src={LiveTLLogo}
         class="btn btn-square rounded-sm m-1"
@@ -22,6 +23,9 @@
   <div class="navbar-end">
     <a type="button" href={liveTLGithub} class="btn btn-ghost btn-circle">
       <Icon src={Github} size="24px" theme="mini" class="h-5 w-5" />
+    </a>
+    <a type="button" href={liveTLDiscord} class="btn btn-ghost btn-circle">
+      <Icon src={Discord} size="24px" theme="mini" class="h-5 w-5" />
     </a>
   </div>
 </div>
