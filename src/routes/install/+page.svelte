@@ -40,12 +40,12 @@
       <li>Android</li>
       <li>iOS Device</li>
     </ul>
-    <div class="flex flex-row justify-center">
+    <div class="flex flex-col space-y-2 sm:space-y-0 sm:flex-row justify-center">
       <a
         href={downloadLinks['chrome']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-primary mr-4"
+        class="btn btn-primary rounded-2xl mr-4"
       >
         <Icon
           src={Googlechrome}
@@ -59,7 +59,7 @@
         href={downloadLinks['firefox']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn btn-secondary"
+        class="btn btn-secondary rounded-2xl"
         ><Icon
           src={Firefoxbrowser}
           theme="solid"

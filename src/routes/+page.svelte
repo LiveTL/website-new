@@ -18,7 +18,7 @@
   }
 </script>
 
-<div class="hero min-h-screen bg-base-100">
+<div class="hero min-h-screen bg-base-100 snap-start">
   <div class="hero-content text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">LiveTL</h1>
@@ -31,7 +31,7 @@
   </div>
 </div>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-base-200 snap-start">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="mockup-window border bg-base-300">
       <div class="flex justify-center bg-base-200">
@@ -51,7 +51,7 @@
   </div>
 </div>
 
-<div class="hero min-h-screen bg-base-100">
+<div class="hero min-h-screen bg-base-100 snap-start">
   <div class="hero-content">
     <div class="space-y-8">
       <h1 class="text-5xl font-bold text-center">What do people say?</h1>
@@ -80,7 +80,7 @@
   </div>
 </div>
 
-<div class="hero min-h-screen bg-base-200">
+<div class="hero min-h-screen bg-base-200 snap-start">
   <div class="hero-content">
     <div class="max-w-md space-y-8">
       <h1 class="text-5xl font-bold text-center">How to use?</h1>

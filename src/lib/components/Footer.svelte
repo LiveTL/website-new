@@ -13,7 +13,7 @@
   </div>
   <div>
     <span class="footer-title">Products</span>
-    <a class="link link-hover" href="/">LiveTL</a>
+    <a class="link link-hover" href="/install">LiveTL</a>
     <a class="link link-hover" href="/hyperchat">HyperChat</a>
     <a class="link link-hover" href="/ytcfilter">YTC Filter</a>
   </div>
