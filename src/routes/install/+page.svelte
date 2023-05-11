@@ -20,7 +20,7 @@
   export let data: PageData;
 </script>
 
-<div class="container mx-auto my-10">
+<div class="container mx-auto">
   <div class="max-w-3xl mx-auto px-8">
     <h1 class="text-4xl font-bold mb-4">LiveTL</h1>
     <p class="text-gray-700 mb-6">

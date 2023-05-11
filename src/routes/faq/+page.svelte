@@ -4,7 +4,7 @@
   export let data: PageData;
 </script>
 
-<div class="container mx-auto my-10">
+<div class="container mx-auto">
   <div class="container mx-auto px-8">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
       <div class="col-span-1 md:col-span-2">
