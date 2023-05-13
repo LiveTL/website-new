@@ -12,6 +12,9 @@ devDependencies:
   '@steeze-ui/heroicons':
     specifier: ^2.2.2
     version: 2.2.2
+  '@steeze-ui/radix-icons':
+    specifier: ^1.1.0
+    version: 1.1.0
   '@steeze-ui/simple-icons':
     specifier: ^1.4.0
     version: 1.4.0
@@ -523,6 +526,10 @@ packages:
 
   /@steeze-ui/heroicons@2.2.2:
     resolution: {integrity: sha512-VUkgSAbjLzsEuF4kDQDESANb/NNxqhkOMnrzD1VhB3tSGr7wVZ5FKS7aM2QZcKXjziwR6dbt7Nhs3fpZhqOi1A==}
+    dev: true
+
+  /@steeze-ui/radix-icons@1.1.0:
+    resolution: {integrity: sha512-p6cQIuREqJ7xy8gbQTE9uzW97I7dg3E4UlJsOBHaQNAg7vakqaqozIu5hP1Bp78tuvBvM7CH2+VT0xqpez1ajQ==}
     dev: true
 
   /@steeze-ui/simple-icons@1.4.0:
