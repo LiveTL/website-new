@@ -16,26 +16,26 @@
     <p class="text-lg">
       <b>LiveTL</b> was created in 2020 as a browser extension focused on providing
       live translations for YouTube and Twitch streams. It was the first project
-      undertaken by our team. We wanted to break down language barriers and
-      enable viewers to understand streams in their native language.
+      undertaken by our team. We wanted to break down language barriers and enable
+      viewers to understand streams in their native language.
     </p>
   </div>
 
   <div class="max-w-lg mx-auto">
     <p class="text-lg">
       Over time, our team expanded and we continued to develop browser
-      extensions. One of our notable projects is <b>HyperChat</b>, an extension that
-      enhances the chat experience on YouTube streams. We are passionate about
-      creating innovative tools that improve the streaming and viewing
+      extensions. One of our notable projects is <b>HyperChat</b>, an extension
+      that enhances the chat experience on YouTube streams. We are passionate
+      about creating innovative tools that improve the streaming and viewing
       experience for users.
     </p>
   </div>
 
   <div class="max-w-lg mx-auto mt-8">
     <p class="text-lg">
-      <b>LiveTL</b> and <b>HyperChat</b> are the result of the collaboration of a small team
-      of dedicated contributors. We are committed to continuously improving and
-      expanding our offerings to better serve our users.
+      <b>LiveTL</b> and <b>HyperChat</b> are the result of the collaboration of a
+      small team of dedicated contributors. We are committed to continuously improving
+      and expanding our offerings to better serve our users.
     </p>
   </div>
 

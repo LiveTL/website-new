@@ -7,8 +7,8 @@
     <!-- svelte-ignore a11y-missing-attribute -->
     <img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
     <p>
-      LiveTL Developers © 2023<br />The team that makes that one Live Translation
-      Filter since 2020
+      LiveTL Developers © 2023<br />The team that makes that one Live
+      Translation Filter since 2020
     </p>
   </div>
   <div>
@@ -20,7 +20,7 @@
   <div>
     <span class="footer-title">Team</span>
     <a class="link link-hover" href="/about">About us</a>
-    <a class="link link-hover">Contact</a>
+    <a class="link link-hover" href="/contact">Contact</a>
     <a class="link link-hover">Donations</a>
   </div>
   <div>

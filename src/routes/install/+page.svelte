@@ -101,7 +101,9 @@
     </ol>
 
     <h2 class="text-2xl font-bold my-4">More install options</h2>
-    <div class="flex flex-col space-y-4 sm:space-y-0 sm:flex-row justify-center py-4">
+    <div
+      class="flex flex-col space-y-4 sm:space-y-0 sm:flex-row justify-center py-4"
+    >
       <a
         href={downloadLinks['android']}
         target="_blank"
