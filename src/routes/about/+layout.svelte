@@ -4,7 +4,6 @@
   export let data: LayoutData;
 </script>
 
-<div class="background-plus">
+<div class="background-plus bg-fixed">
   <slot />
 </div>
-
