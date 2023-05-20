@@ -36,7 +36,7 @@
       <p class="text-xl py-6 text-base-300">Optimized YouTube Chat.</p>
       <a
         class="btn btn-primary rounded-xl transition-all hover:scale-105"
-        href="/install">Install</a
+        href="/hyperchat/install">Install</a
       >
     </div>
   </div>
