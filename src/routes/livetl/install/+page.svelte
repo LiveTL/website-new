@@ -1,6 +1,8 @@
 <script lang="ts">
   import type { PageData } from './$types';
 
+  import LiveTLLogoBig from '$lib/assets/livetl/logo-big.png';
+
   const downloadLinks = {
     chrome:
       'https://chrome.google.com/webstore/detail/livetl-translation-filter/moicohcfhhbmmngneghfjfjpdobmmnlg',
@@ -22,6 +24,7 @@
 
 <div class="container mx-auto">
   <div class="max-w-3xl mx-auto px-8">
+    <img src={LiveTLLogoBig} alt="LiveTL Logo" class="mx-auto w-48 rounded-2xl shadow-2xl my-8 shadow-info" />
     <h1 class="text-4xl font-bold mb-4 text-center">
       Install <span
         class="bg-clip-text text-transparent bg-gradient-to-tr from-info to-accent"

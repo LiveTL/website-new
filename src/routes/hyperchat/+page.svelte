@@ -1,6 +1,7 @@
 <script lang="ts">
   import type { PageData } from './$types';
   import hyperChatBrowserDemo from '$lib/assets/hyperchat/browser-demo-peko-kiara.png';
+  import hyperChatLogo from '$lib/assets/hyperchat/logo.png';
 
   const HyperChatDemoVideo = '/HyperChat_Improved_YouTube_Chat.mp4';
 
@@ -22,8 +23,12 @@
 
   <div class="hero-content text-center relative">
     <div class="max-w-md">
-      <div class="font-bold text-primary text-7xl py-2">
-        <h1>HyperChat</h1>
+      <img
+        src={hyperChatLogo}
+        alt="HyperChat Logo"
+        class="mx-auto w-48">
+      <div class="font-bold text-primary text-7xl my-2 tracking-wide">
+        <h1>Hyper<span class="text-base-100">Chat</span></h1>
       </div>
 
       <p class="text-info font-bold">By LiveTL</p>

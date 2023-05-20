@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LivetlChatDemo from '$lib/assets/livetl-chat-demo.png';
+  import LivetlChatDemo from '$lib/assets/livetl/livetl-chat-demo.png';
 
   import TwitterTestimonials from '$lib/components/TwitterTestimonials.svelte';
   import Reviews from '$lib/components/Reviews.svelte';

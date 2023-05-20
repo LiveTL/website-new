@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LiveTLLogo from '$lib/assets/livetl-logo.png';
+  import LiveTLLogo from '$lib/assets/livetl/logo.png';
 </script>
 
 <footer class="footer p-10 bg-neutral text-base-200">

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LiveTLLogo from '$lib/assets/livetl-logo.png';
+  import LiveTLLogo from '$lib/assets/livetl/logo.png';
   import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
 
   import { Discord, Github } from '@steeze-ui/simple-icons';
