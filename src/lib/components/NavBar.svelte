@@ -15,7 +15,7 @@
         alt="LiveTL logo"
       /></a
     >
-    <a href="/install" class="hover:text-slate-100">LiveTL</a>
+    <a href="/livetl" class="hover:text-slate-100">LiveTL</a>
     <a href="/hyperchat" class="hover:text-slate-100">HyperChat</a>
   </div>
   <div class="navbar-end">

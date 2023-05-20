@@ -70,7 +70,7 @@
       </p>
       <a
         class="btn btn-primary rounded-xl transition-all hover:scale-105"
-        href="/install">Install</a
+        href="/livetl/install">Install</a
       >
     </div>
   </div>
