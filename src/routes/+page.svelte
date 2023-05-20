@@ -105,7 +105,7 @@
       <div class="tabs mx-auto w-max decoration-secondary">
         {#each tabsContent as tab}
           <a
-            class="tab tab-bordered"
+            class="tab tab-bordered transition duration-500 ease-in-out"
             class:tab-active={$activeTab === tab.id}
             on:click={() => changeActiveTab(tab.id)}
             href="#{tab.title}"
@@ -115,7 +115,7 @@
         {/each}
       </div>
 
-      <div>
+      <div class="duration-500 ease-in-out transition">
         <!-- Tab Content -->
         {#each tabsContent as tab}
           {#if $activeTab === tab.id}
