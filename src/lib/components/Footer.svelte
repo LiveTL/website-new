@@ -21,7 +21,7 @@
     <span class="footer-title">Team</span>
     <a class="link link-hover" href="/about">About us</a>
     <a class="link link-hover" href="/contact">Contact</a>
-    <a class="link link-hover">Donations</a>
+    <a class="link link-hover" href="/#donations">Donations</a>
   </div>
   <div>
     <span class="footer-title">Support</span>
