@@ -78,18 +78,18 @@
     <div class="max-w-md">
       <h1 class="text-6xl font-bold text-base-200">LiveTL</h1>
 
-      <p class="text-xl py-6 text-base-300">
+      <p class="py-6 text-xl text-base-300">
         Get live translations for YouTube and Twitch.
       </p>
       <a
-        class="btn btn-primary rounded-xl transition-all hover:scale-105"
+        class="btn-primary btn rounded-xl transition-all hover:scale-105"
         href="/livetl/install">Install</a
       >
     </div>
   </div>
 </div>
 
-<div class="hero min-h-screen bg-base-100 snap-start">
+<div class="hero min-h-screen snap-start bg-base-100">
   <div class="hero-content flex-col lg:flex-row-reverse">
     <div class="mockup-window border bg-base-300">
       <div class="flex justify-center bg-base-200">
@@ -99,11 +99,11 @@
     <div>
       <h1 class="text-5xl font-bold">Separate chat</h1>
       <p class="py-6">
-        <span class="text-info font-semibold">Filter</span> translations by your
+        <span class="font-semibold text-info">Filter</span> translations by your
         native language. Select your
-        <span class="text-info font-semibold">favorite translators</span>. Block
-        <span class="text-info font-semibold">spammers</span>. VOD support.
-        Custom <span class="text-info font-semibold">filters</span>.
+        <span class="font-semibold text-info">favorite translators</span>. Block
+        <span class="font-semibold text-info">spammers</span>. VOD support.
+        Custom <span class="font-semibold text-info">filters</span>.
       </p>
     </div>
   </div>
@@ -111,14 +111,14 @@
 
 <CustomisablesHero {customisables} />
 
-<div class="hero min-h-screen bg-base-100 snap-start">
+<div class="hero min-h-screen snap-start bg-base-100">
   <div class="hero-content">
     <div class="space-y-8">
-      <h1 class="text-5xl font-bold text-center">What do people say?</h1>
+      <h1 class="text-center text-5xl font-bold">What do people say?</h1>
       <div class="tabs mx-auto w-max decoration-secondary">
         {#each tabsContent as tab}
           <a
-            class="tab tab-bordered transition duration-500 ease-in-out"
+            class="tab-bordered tab transition duration-500 ease-in-out"
             class:tab-active={$activeTab === tab.id}
             on:click={() => changeActiveTab(tab.id)}
             href="#{tab.title}"
@@ -128,7 +128,7 @@
         {/each}
       </div>
 
-      <div class="duration-500 ease-in-out transition">
+      <div class="transition duration-500 ease-in-out">
         <!-- Tab Content -->
         {#each tabsContent as tab}
           {#if $activeTab === tab.id}
@@ -140,16 +140,16 @@
   </div>
 </div>
 
-<div class="hero min-h-screen bg-slate-900 snap-start">
+<div class="hero min-h-screen snap-start bg-slate-900">
   <div class="hero-content">
     <div class="max-w-md space-y-8">
       <h1
-        class="text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-tr from-secondary to-accent"
+        class="bg-gradient-to-tr from-secondary to-accent bg-clip-text text-center text-5xl font-bold text-transparent"
       >
         How to use?
       </h1>
       <div class="mx-8 text-slate-100">
-        <ol class="list-decimal text-xl font-medium space-y-2">
+        <ol class="list-decimal space-y-2 text-xl font-medium">
           {#each ['Install the LiveTL extension', 'Select preffered language and translators', 'Start watching!'] as step}
             <li>{step}</li>
           {/each}
@@ -159,17 +159,19 @@
   </div>
 </div>
 
-<div class="hero min-h-screen bg-base-100 snap-start">
+<div class="hero min-h-screen snap-start bg-base-100">
   <div class="hero-content">
-    <div class="max-w-md space-y-8 flex flex-col">
-      <h1 class="text-5xl font-bold text-center" id="donations">Support the devs!</h1>
+    <div class="flex max-w-md flex-col space-y-8">
+      <h1 class="text-center text-5xl font-bold" id="donations">
+        Support the devs!
+      </h1>
       <p class="text-center">
         Donations are welcome through <a
           href="https://opencollective.com/livetl"
-          class="link link-secondary">Open Collective</a
+          class="link-secondary link">Open Collective</a
         >
         or
-        <a href="https://github.com/sponsors/LiveTL" class="link link-secondary"
+        <a href="https://github.com/sponsors/LiveTL" class="link-secondary link"
           >Github Sponsors</a
         >.
       </p>
@@ -272,7 +274,7 @@
       </svg>
 
       <span
-        class="flex flex-row items-center text-4xl mx-auto gap-2 font-bold tracking-wide text-neutral-700"
+        class="mx-auto flex flex-row items-center gap-2 text-4xl font-bold tracking-wide text-neutral-700"
         ><Icon src={Github} theme="solid" size="34" /> Sponsors</span
       >
     </div>

@@ -16,11 +16,11 @@
   import { Twitter } from '@steeze-ui/simple-icons';
 </script>
 
-<div class="card w-full bg-base-100 shadow-xl mx-auto max-w-md">
+<div class="card mx-auto w-full max-w-md bg-base-100 shadow-xl">
   <div class="card-body space-y-2">
     <div class="avatar">
       <div
-        class="w-24 rounded-full ring ring-secondary ring-offset-base-100 ring-offset-2"
+        class="w-24 rounded-full ring ring-secondary ring-offset-2 ring-offset-base-100"
       >
         <!-- svelte-ignore a11y-missing-attribute -->
         <img src={avatarImg} />
@@ -29,8 +29,8 @@
 
     <p>{text}</p>
 
-    <span class="card-actions justify-end text-center flex text-sm">
-      <a href={sourceURL} class="flex items-center link link-hover">
+    <span class="card-actions flex justify-end text-center text-sm">
+      <a href={sourceURL} class="link-hover link flex items-center">
         <Icon
           src={Twitter}
           theme="solid"

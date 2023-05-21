@@ -1,19 +1,18 @@
 <script lang="ts">
-	/**
-	 * A component to render a hero with a showcase of customisable features.
-	 * @component CustomisablesHero
-	 * @prop {Array} customisables - an array of customisable features to display
-	 */
+  /**
+   * A component to render a hero with a showcase of customisable features.
+   * @component CustomisablesHero
+   * @prop {Array} customisables - an array of customisable features to display
+   */
 
-	export let customisables = [];
-
+  export let customisables = [];
 </script>
 
-<div class="bg-slate-900 py-24 sm:py-32 min-h-screen">
+<div class="min-h-screen bg-slate-900 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center">
       <h1
-        class="mt-2 text-5xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-tr from-secondary to-accent"
+        class="mt-2 bg-gradient-to-tr from-secondary to-accent bg-clip-text text-5xl font-bold tracking-tight text-transparent"
       >
         Customisable
       </h1>

@@ -10,9 +10,9 @@
   console.log(data.contributors);
 </script>
 
-<div class="container mx-auto px-4 sm:px-8 py-12">
-  <div class="max-w-lg mx-auto mb-8">
-    <h1 class="text-5xl font-bold mb-8">About LiveTL</h1>
+<div class="container mx-auto px-4 py-12 sm:px-8">
+  <div class="mx-auto mb-8 max-w-lg">
+    <h1 class="mb-8 text-5xl font-bold">About LiveTL</h1>
     <p class="text-lg">
       <b>LiveTL</b> was created in 2020 as a browser extension focused on providing
       live translations for YouTube and Twitch streams. It was the first project
@@ -21,7 +21,7 @@
     </p>
   </div>
 
-  <div class="max-w-lg mx-auto">
+  <div class="mx-auto max-w-lg">
     <p class="text-lg">
       Over time, our team expanded and we continued to develop browser
       extensions. One of our notable projects is <b>HyperChat</b>, an extension
@@ -31,7 +31,7 @@
     </p>
   </div>
 
-  <div class="max-w-lg mx-auto mt-8">
+  <div class="mx-auto mt-8 max-w-lg">
     <p class="text-lg">
       <b>LiveTL</b> and <b>HyperChat</b> are the result of the collaboration of a
       small team of dedicated contributors. We are committed to continuously improving
@@ -39,8 +39,8 @@
     </p>
   </div>
 
-  <div class="max-w-lg mx-auto">
-    <h2 class="text-4xl font-bold my-8">Team</h2>
+  <div class="mx-auto max-w-lg">
+    <h2 class="my-8 text-4xl font-bold">Team</h2>
     <p class="text-lg">
       LiveTL, HyperChat and other software is built by contributors from around
       the world. We would not be here without their generous work and support.

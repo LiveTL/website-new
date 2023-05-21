@@ -8,10 +8,10 @@
   <div class="container mx-auto px-8">
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
       <div class="col-span-1 md:col-span-2">
-        <h1 class="text-4xl font-bold mb-8">Frequently Asked Questions</h1>
+        <h1 class="mb-8 text-4xl font-bold">Frequently Asked Questions</h1>
       </div>
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-2xl font-bold mb-4">How does LiveTL work?</h3>
+        <h3 class="mb-4 text-2xl font-bold">How does LiveTL work?</h3>
         <p>
           LiveTL is, at its core, just a <i
             ><b>chat filter for YouTube streams</b></i
@@ -24,7 +24,7 @@
         </p>
       </div>
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-2xl font-bold mb-4">
+        <h3 class="mb-4 text-2xl font-bold">
           I opened my stream with LiveTL but it isn’t loading?
         </h3>
         <p>
@@ -33,7 +33,7 @@
         </p>
       </div>
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-2xl font-bold mb-4">
+        <h3 class="mb-4 text-2xl font-bold">
           I don’t see any translations in the translations panel?
         </h3>
         <p>
@@ -45,7 +45,7 @@
         </p>
       </div>
       <div class="col-span-1 md:col-span-2">
-        <h3 class="text-2xl font-bold mb-4">
+        <h3 class="mb-4 text-2xl font-bold">
           A translator is using their own style of language tags, how do I make
           them show?
         </h3>

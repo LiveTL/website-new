@@ -8,21 +8,30 @@
 
 <div class="navbar bg-neutral text-secondary-content">
   <div class="navbar-start space-x-4">
-    <a href="/" class="min-w-fit hover:opacity-90 hover:scale-105 transition duration-300 ease-in-out"
+    <a
+      href="/"
+      class="min-w-fit transition duration-300 ease-in-out hover:scale-105 hover:opacity-90"
       ><img
         src={LiveTLLogo}
-        class="btn btn-square rounded-sm m-1"
+        class="btn-square btn m-1 rounded-sm"
         alt="LiveTL logo"
       /></a
     >
-    <a href="/livetl" class="hover:text-slate-100 transition duration-300 ease-in-out">LiveTL</a>
-    <a href="/hyperchat" class="hover:text-slate-100 transition duration-300 ease-in-out">HyperChat</a>
+    <a
+      href="/livetl"
+      class="transition duration-300 ease-in-out hover:text-slate-100">LiveTL</a
+    >
+    <a
+      href="/hyperchat"
+      class="transition duration-300 ease-in-out hover:text-slate-100"
+      >HyperChat</a
+    >
   </div>
   <div class="navbar-end">
-    <a type="button" href={GITHUB_ORG_URL} class="btn btn-ghost btn-circle">
+    <a type="button" href={GITHUB_ORG_URL} class="btn-ghost btn-circle btn">
       <Icon src={Github} size="24px" theme="mini" class="h-5 w-5" />
     </a>
-    <a type="button" href={DISCORD_SERVER_URL} class="btn btn-ghost btn-circle">
+    <a type="button" href={DISCORD_SERVER_URL} class="btn-ghost btn-circle btn">
       <Icon src={Discord} size="24px" theme="mini" class="h-5 w-5" />
     </a>
   </div>

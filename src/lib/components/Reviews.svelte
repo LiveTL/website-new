@@ -10,7 +10,7 @@
       authorName: 'Alex',
       text: `10/10 would recommend. Does everything it promises. Very solid extension with hyperchat, which perfomorms dramatically better than the stock youtube`,
     },
-  ]
+  ];
 </script>
 
 <div class="flex flex-col space-y-4">
