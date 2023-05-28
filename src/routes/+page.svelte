@@ -163,7 +163,7 @@
   <div class="hero-content">
     <div class="flex max-w-md flex-col space-y-8">
       <h1 class="text-center text-5xl font-bold" id="donations">
-        Support the devs!
+        <span class="text-info">Support</span> the devs!
       </h1>
       <p class="text-center">
         Donations are welcome through <a
