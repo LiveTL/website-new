@@ -4,6 +4,6 @@
   export let data: LayoutData;
 </script>
 
-<div class="background-hideout bg-fixed py-10">
+<div class="background-hideout bg-fixed">
   <slot />
 </div>

@@ -10,7 +10,7 @@
   export let subtitleText = 'Make LiveTL look and behave exactly the way you want.';
 </script>
 
-<div class="min-h-screen bg-slate-900 py-24 sm:py-32">
+<div class="h-fit bg-slate-900 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center">
       <h1

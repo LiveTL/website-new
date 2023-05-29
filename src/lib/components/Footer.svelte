@@ -17,7 +17,7 @@
     <a class="link-hover link" href="/ytcfilter">YtcFilter</a>
   </div>
   <div>
-    <span class="footer-title">Team</span>
+    <span class="footer-title">Community</span>
     <a class="link-hover link" href="/about">About us</a>
     <a class="link-hover link" href="/contact">Contact</a>
     <a class="link-hover link" href="/#donations">Donations</a>
