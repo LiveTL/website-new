@@ -9,7 +9,12 @@
       <h1 class="text-center text-5xl font-bold" id="donations">
         <span class="text-info">Support</span> the devs!
       </h1>
-			<p class="text-center text-lg">All of our software is <a href="https://opensource.org/osd/" class="link link-secondary">open source</a> and free.</p>
+      <p class="text-center text-lg">
+        All of our software is <a
+          href="https://opensource.org/osd/"
+          class="link-secondary link">open source</a
+        > and free.
+      </p>
       <p class="text-center text-lg">
         Donations are welcome through <a
           href="https://opencollective.com/livetl"

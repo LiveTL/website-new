@@ -72,7 +72,7 @@
 </div>
 
 <div class="hero min-h-screen bg-base-100">
-  <div class="hero-content flex flex-col text-center my-8">
+  <div class="hero-content my-8 flex flex-col text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold text-secondary">
         Elevate your YouTube livestream experience
@@ -91,4 +91,8 @@
   </div>
 </div>
 
-<CustomisablesHero subtitleText="Adapt HyperChat for you." headingStyle="mt-2 text-5xl font-bold tracking-tight text-primary" {customisables}/>
+<CustomisablesHero
+  subtitleText="Adapt HyperChat for you."
+  headingStyle="mt-2 text-5xl font-bold tracking-tight text-primary"
+  {customisables}
+/>

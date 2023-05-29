@@ -5,19 +5,17 @@
    * @prop {Array} customisables - an array of customisable features to display
    */
 
-  export let headingStyle = 'mt-2 bg-gradient-to-tr from-secondary to-accent bg-clip-text text-5xl font-bold tracking-tight text-transparent';
+  export let headingStyle =
+    'mt-2 bg-gradient-to-tr from-secondary to-accent bg-clip-text text-5xl font-bold tracking-tight text-transparent';
   export let customisables = [];
-  export let subtitleText = 'Make LiveTL look and behave exactly the way you want.';
+  export let subtitleText =
+    'Make LiveTL look and behave exactly the way you want.';
 </script>
 
 <div class="h-fit bg-slate-900 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center">
-      <h1
-        class="{headingStyle}"
-      >
-        Customisable
-      </h1>
+      <h1 class={headingStyle}>Customisable</h1>
       <p class="mt-6 text-lg leading-8 text-slate-100">
         {subtitleText}
       </p>
