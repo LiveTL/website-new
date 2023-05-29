@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LivetlChatDemo from '$lib/assets/livetl/livetl-chat-demo.png';
+  import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png';
 
   import TwitterTestimonials from '$lib/components/TwitterTestimonials.svelte';
   import Reviews from '$lib/components/Reviews.svelte';
@@ -76,6 +76,7 @@
   function changeActiveTab(tabId: number) {
     activeTab.set(tabId);
   }
+
 </script>
 
 <div
@@ -86,7 +87,7 @@
       <h1 class="text-6xl font-bold text-base-200">LiveTL</h1>
 
       <p class="py-6 text-xl text-base-300">
-        Get live translations for YouTube and Twitch.
+        The ultimate volunteer translation extension for YouTube and Twitch.
       </p>
       <a
         class="btn-primary btn rounded-xl transition-all hover:scale-105"
@@ -98,13 +99,9 @@
 
 <div class="hero h-[75vh] snap-start bg-transparent">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <div class="mockup-window border bg-base-300">
-      <div class="flex justify-center bg-base-200">
-        <img src={LivetlChatDemo} alt="LiveTL Chat demo in dedicated window." />
-      </div>
-    </div>
+    <img src={LiveTLPekoKiaraShowcaseDesktop} alt="LiveTL Chat demo in dedicated window." class="max-w-4xl shadow-2xl"/>
     <div>
-      <h1 class="text-5xl font-bold">Separate chat</h1>
+      <h1 class="text-5xl text-secondary font-bold">The best way to watch foreign streamers</h1>
       <p class="py-6">
         <span class="font-semibold text-info">Filter</span> translations by your
         native language. Select your
@@ -121,7 +118,7 @@
 <div class="hero h-[75vh] snap-start bg-transparent">
   <div class="hero-content">
     <div class="space-y-8">
-      <h1 class="text-center text-5xl font-bold">What do people say?</h1>
+      <h1 class="text-center text-secondary text-5xl font-bold">What do people say?</h1>
       <div class="tabs mx-auto w-max decoration-secondary">
         {#each tabsContent as tab}
           <a
