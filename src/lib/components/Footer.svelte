@@ -20,7 +20,7 @@
     <span class="footer-title">Community</span>
     <a class="link-hover link" href="/about">About us</a>
     <a class="link-hover link" href="/contact">Contact</a>
-    <a class="link-hover link" href="/#donations">Donations</a>
+    <a class="link-hover link" href="/livetl/#donations">Donations</a>
   </div>
   <div>
     <span class="footer-title">Support</span>
