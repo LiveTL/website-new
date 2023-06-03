@@ -14,9 +14,14 @@
 
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Twitter } from '@steeze-ui/simple-icons';
+
+  import { fade } from 'svelte/transition';
 </script>
 
-<div class="card mx-auto w-full max-w-md bg-base-100 shadow-xl">
+<div
+  class="card mx-auto w-full max-w-md bg-base-100 shadow-xl"
+  in:fade={{ duration: 500 }}
+>
   <div class="card-body space-y-2">
     <div class="avatar">
       <div
