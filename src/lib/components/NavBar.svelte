@@ -1,9 +1,5 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl/logo.png';
-  import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
-
-  import { Discord, Github } from '@steeze-ui/simple-icons';
-  import { Icon } from '@steeze-ui/svelte-icon';
 </script>
 
 <div class="navbar bg-neutral text-secondary-content">
@@ -28,11 +24,6 @@
     >
   </div>
   <div class="navbar-end">
-    <a type="button" href={GITHUB_ORG_URL} class="btn-ghost btn-circle btn">
-      <Icon src={Github} size="24px" theme="mini" class="h-5 w-5" />
-    </a>
-    <a type="button" href={DISCORD_SERVER_URL} class="btn-ghost btn-circle btn">
-      <Icon src={Discord} size="24px" theme="mini" class="h-5 w-5" />
-    </a>
+    
   </div>
 </div>

@@ -1,5 +1,72 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl/logo.png';
+
+  import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
+  import { Discord, Github } from '@steeze-ui/simple-icons';
+  import { Icon } from '@steeze-ui/svelte-icon';
+
+  const socialLinks = [
+    {
+      name: 'Github',
+      url: GITHUB_ORG_URL,
+      icon: Github,
+    },
+    {
+      name: 'Discord',
+      url: DISCORD_SERVER_URL,
+      icon: Discord,
+    },
+  ];
+
+  const footerLinks = [
+    {
+      title: 'Software',
+      links: [
+        {
+          name: 'LiveTL',
+          url: '/livetl',
+        },
+        {
+          name: 'HyperChat',
+          url: '/hyperchat',
+        },
+        {
+          name: 'YtcFilter',
+          url: '/ytcfilter',
+        },
+      ],
+    },
+    {
+      title: 'Community',
+      links: [
+        {
+          name: 'About us',
+          url: '/about',
+        },
+        {
+          name: 'Contact',
+          url: '/contact',
+        },
+        {
+          name: 'Donations',
+          url: '/livetl/#donations',
+        },
+      ],
+    },
+    {
+      title: 'Support',
+      links: [
+        {
+          name: 'FAQ',
+          url: '/faq',
+        },
+        {
+          name: 'Privacy Policy',
+          url: '/privacy',
+        },
+      ],
+    },
+  ];
 </script>
 
 <footer class="footer bg-neutral p-10 text-base-200">
@@ -9,22 +76,25 @@
     <p>
       LiveTL Developers © 2023<br />By VTuber fans, for VTuber fans.
     </p>
+    <div class="flex flex-row gap-4">
+      {#each socialLinks as { name, url, icon }}
+        <div class="tooltip tooltip-bottom" data-tip={name}>
+          <a
+            href={url}
+            class="hover:text-base-100 transition-colors duration-300"
+          >
+            <Icon src={icon} size="20px" theme="mini" />
+          </a>
+        </div>
+      {/each}
+    </div>
   </div>
-  <div>
-    <span class="footer-title">Software</span>
-    <a class="link-hover link" href="/livetl">LiveTL</a>
-    <a class="link-hover link" href="/hyperchat">HyperChat</a>
-    <a class="link-hover link" href="/ytcfilter">YtcFilter</a>
-  </div>
-  <div>
-    <span class="footer-title">Community</span>
-    <a class="link-hover link" href="/about">About us</a>
-    <a class="link-hover link" href="/contact">Contact</a>
-    <a class="link-hover link" href="/livetl/#donations">Donations</a>
-  </div>
-  <div>
-    <span class="footer-title">Support</span>
-    <a class="link-hover link" href="/faq">FAQ</a>
-    <a class="link-hover link" href="/privacy">Privacy</a>
-  </div>
+  {#each footerLinks as {title, links}}
+    <div>
+      <span class="footer-title">{title}</span>
+      {#each links as link}
+        <a class="link-hover link" href={link.url}>{link.name}</a>
+      {/each}
+    </div>
+  {/each}
 </footer>
