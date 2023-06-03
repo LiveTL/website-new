@@ -15,7 +15,7 @@
 <div class="h-fit bg-slate-900 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center">
-      <h1 class={headingStyle}>Customisable</h1>
+      <h1 class={headingStyle}>Customizable</h1>
       <p class="mt-6 text-lg leading-8 text-slate-100">
         {subtitleText}
       </p>
