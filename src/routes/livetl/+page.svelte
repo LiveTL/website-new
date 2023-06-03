@@ -85,7 +85,7 @@
     <div class="max-w-md">
       <h1 class="text-6xl font-bold text-base-200">LiveTL</h1>
 
-      <p class="py-6 text-xl text-base-300">
+      <p class="py-6 text-xl text-base-100">
         The ultimate volunteer translation extension for YouTube and Twitch.
       </p>
       <div class="space-x-1">
@@ -107,7 +107,7 @@
     <img
       src={LiveTLPekoKiaraShowcaseDesktop}
       alt="LiveTL Chat demo in dedicated window."
-      class="shadow-2xl sm:max-w-4xl md:max-w-2xl"
+      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl"
     />
     <div>
       <h1 class="text-5xl font-bold text-secondary">
