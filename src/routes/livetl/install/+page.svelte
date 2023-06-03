@@ -42,7 +42,7 @@
         href={downloadLinks['chrome']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn-primary btn mr-4 rounded-full"
+        class="btn-primary btn mr-4 rounded-full text-base-100"
       >
         <Icon
           src={Googlechrome}
@@ -56,7 +56,7 @@
         href={downloadLinks['firefox']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn-secondary btn rounded-full"
+        class="btn-secondary btn rounded-full text-base-100"
         ><Icon
           src={Firefoxbrowser}
           theme="solid"
@@ -74,25 +74,13 @@
         href={downloadLinks['android']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn-neutral btn mr-4 max-w-xs rounded-full text-slate-50"
+        class="btn mr-4 max-w-xs rounded-full text-base-100"
         ><Icon
           src={Googleplay}
           theme="solid"
           size="18"
           class="mr-2 justify-end"
         />Google Play</a
-      >
-      <a
-        href={downloadLinks['ios']}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn-neutral btn max-w-xs rounded-full text-slate-50"
-        ><Icon
-          src={Appstore}
-          theme="solid"
-          size="18"
-          class="mr-2 justify-end"
-        />App Store</a
       >
     </div>
     <div class="mx-auto mt-8 space-y-8 text-center text-base">

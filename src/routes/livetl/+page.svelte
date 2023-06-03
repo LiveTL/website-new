@@ -76,7 +76,6 @@
   function changeActiveTab(tabId: number) {
     activeTab.set(tabId);
   }
-
 </script>
 
 <div
@@ -89,19 +88,31 @@
       <p class="py-6 text-xl text-base-300">
         The ultimate volunteer translation extension for YouTube and Twitch.
       </p>
-      <a
-        class="btn-primary btn rounded-xl transition-all hover:scale-105"
-        href="/livetl/install">Install</a
-      >
+      <div class="space-x-1">
+        <a
+          class="btn-primary btn rounded-xl font-semibold text-base-100"
+          href="/livetl/install">Install</a
+        >
+        <a
+          class="btn-outline btn-secondary btn rounded-xl font-semibold"
+          href="/livetl/about">Learn more</a
+        >
+      </div>
     </div>
   </div>
 </div>
 
 <div class="hero h-[75vh] snap-start bg-transparent">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <img src={LiveTLPekoKiaraShowcaseDesktop} alt="LiveTL Chat demo in dedicated window." class="max-w-4xl shadow-2xl"/>
+    <img
+      src={LiveTLPekoKiaraShowcaseDesktop}
+      alt="LiveTL Chat demo in dedicated window."
+      class="shadow-2xl sm:max-w-4xl md:max-w-2xl"
+    />
     <div>
-      <h1 class="text-5xl text-secondary font-bold">The best way to watch foreign streamers</h1>
+      <h1 class="text-5xl font-bold text-secondary">
+        The best way to watch foreign streamers
+      </h1>
       <p class="py-6">
         <span class="font-semibold text-info">Filter</span> translations by your
         native language. Select your
@@ -115,10 +126,12 @@
 
 <CustomisablesHero {customisables} />
 
-<div class="hero h-[75vh] snap-start bg-transparent">
+<div class="hero min-h-screen snap-start bg-transparent">
   <div class="hero-content">
     <div class="space-y-8">
-      <h1 class="text-center text-secondary text-5xl font-bold">What do people say?</h1>
+      <h1 class="text-center text-5xl font-bold text-secondary">
+        What do people say?
+      </h1>
       <div class="tabs mx-auto w-max decoration-secondary">
         {#each tabsContent as tab}
           <a

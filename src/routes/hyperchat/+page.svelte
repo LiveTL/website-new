@@ -60,13 +60,21 @@
         <h1>Hyper<span class="text-base-100">Chat</span></h1>
       </div>
 
-      <p class="font-bold text-info">By LiveTL</p>
+      <p class="text-lg font-bold text-primary">
+        By <span class="text-base-100">LiveTL</span>
+      </p>
 
       <p class="py-6 text-xl text-base-300">Optimized YouTube Chat.</p>
-      <a
-        class="btn-primary btn rounded-xl transition-all hover:scale-105"
-        href="/hyperchat/install">Install</a
-      >
+      <div class="space-x-1">
+        <a
+          class="btn-primary btn rounded-xl text-base-100"
+          href="/hyperchat/install">Install</a
+        >
+        <a
+          class="btn-outline btn-accent btn rounded-xl font-semibold"
+          href="/hyperchat/about">Learn more</a
+        >
+      </div>
     </div>
   </div>
 </div>

@@ -23,7 +23,5 @@
       >HyperChat</a
     >
   </div>
-  <div class="navbar-end">
-    
-  </div>
+  <div class="navbar-end" />
 </div>

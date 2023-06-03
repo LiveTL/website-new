@@ -81,7 +81,7 @@
         <div class="tooltip tooltip-bottom" data-tip={name}>
           <a
             href={url}
-            class="hover:text-base-100 transition-colors duration-300"
+            class="transition-colors duration-300 hover:text-base-100"
           >
             <Icon src={icon} size="20px" theme="mini" />
           </a>
@@ -89,7 +89,7 @@
       {/each}
     </div>
   </div>
-  {#each footerLinks as {title, links}}
+  {#each footerLinks as { title, links }}
     <div>
       <span class="footer-title">{title}</span>
       {#each links as link}
