@@ -1,5 +1,11 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl/logo.png';
+
+  const navigationLinks = [
+    { href: '/livetl', text: 'LiveTL' },
+    { href: '/hyperchat', text: 'HyperChat' },
+    { href: '/ytcfilter', text: 'YtcFilter' },
+  ];
 </script>
 
 <div class="navbar bg-neutral text-secondary-content">
@@ -13,15 +19,11 @@
         alt="LiveTL logo"
       /></a
     >
-    <a
-      href="/livetl"
-      class="transition duration-300 ease-in-out hover:text-slate-100">LiveTL</a
-    >
-    <a
-      href="/hyperchat"
-      class="transition duration-300 ease-in-out hover:text-slate-100"
-      >HyperChat</a
-    >
+    {#each navigationLinks as { href, text }}
+      <a {href} class="transition duration-300 ease-in-out hover:text-slate-100"
+        >{text}</a
+      >
+    {/each}
   </div>
   <div class="navbar-end" />
 </div>
