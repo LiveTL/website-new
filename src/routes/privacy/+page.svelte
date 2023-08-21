@@ -1,34 +1,25 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  import { t } from '$lib/translation';
 
   const privacyPolicy = [
     {
-      header: 'Personal Data',
-      text:
-        'LiveTL Web directly collects as little personal data as possible, as such, when you do not login to the service, no data is collected by it. ' +
-        'Note that some of the third party services used by the service may still collect data. Learn more in the Third Party Services section.<br/>' +
-        'When you log into the service using your Google Account, various pieces of information gathered from your Google Account are stored, such as your Display Name and Email.',
+      header: $t('privacy.personal_data.title'),
+      text: $t('privacy.personal_data.text'),
     },
     {
-      header: 'Third Party Services',
-      text:
-        'LiveTL Web makes use of several third party services which may collect personal information about you.<br/>' +
-        'These services include (but are not limited to): Google (Firebase Hosting, Firestore, Firebase Authentication, and Google Fonts), and Cloudflare (DNS and Cache).',
+      header: $t('privacy.third_party.title'),
+      text: $t('privacy.third_party.text'),
     },
     {
-      header: 'Translator/Translation Data',
-      text:
-        'When you register as a LiveTL Translator, LiveTL Web will lookup and store the YouTube Channel ID associated with your Google Account, ' +
-        'along with any information you entered during the registration process.',
+      header: $t('privacy.translator_data.title'),
+      text: $t('privacy.translator_data.text'),
     },
   ];
-
-  export let data: PageData;
 </script>
 
 <div class="container mx-auto">
   <div class="container mx-auto px-8">
-    <h1 class="mb-8 text-4xl font-bold">LiveTL Privacy Policy</h1>
+    <h1 class="mb-8 text-4xl font-bold">{$t('privacy.title')}</h1>
 
     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
       {#each privacyPolicy as { header, text }}

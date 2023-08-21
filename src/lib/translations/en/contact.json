@@ -1,0 +1,4 @@
+{
+  "title": "Contact Us",
+  "description": "Please make sure you read the <a href=\"/faq\" class=\"link-secondary link\">FAQ</a> before asking for support or reporting issues! The primary and easiest way to get in contact with us is on our <a href={discordServerUrl} class=\"link-secondary link\">Discord Server</a>. You can find all our source code on GitHub."
+}

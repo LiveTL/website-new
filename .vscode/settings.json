@@ -1,7 +1,5 @@
 {
-  "i18n-ally.localesPaths": [
-    "src/lib/translations"
-  ],
+  "i18n-ally.localesPaths": ["src/lib/translations"],
   "discord.removeDetails": false,
   "discord.removeLowerDetails": true
 }

@@ -3,10 +3,11 @@ import i18n from 'sveltekit-i18n';
 /** @type {import('sveltekit-i18n').Config} */
 const config = {
   loaders: [
+    // English
     {
       locale: 'en',
       key: 'home',
-      routes: ['/'], // you can use regexes as well!
+      routes: ['/'],
       loader: async () => (await import('./translations/en/home.json')).default,
     },
     {
@@ -17,8 +18,28 @@ const config = {
         (await import('./translations/en/about.json')).default,
     },
     {
-      locale: 'cs',
-      key: 'common',
+      locale: 'en',
+      key: 'contact',
+      routes: ['/contact'],
+      loader: async () =>
+        (await import('./translations/en/contact.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'faq',
+      routes: ['/faq'],
+      loader: async () => (await import('./translations/en/faq.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'privacy',
+      routes: ['/privacy'],
+      loader: async () =>
+        (await import('./translations/en/privacy.json')).default,
+    }, // Japanese
+    {
+      locale: 'ja',
+      key: 'home',
       loader: async () => (await import('./translations/ja/home.json')).default,
     },
   ],
