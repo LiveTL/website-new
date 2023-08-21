@@ -13,7 +13,6 @@
 
   import { Icon } from '@steeze-ui/svelte-icon';
   import {
-    Appstore,
     Googleplay,
     Googlechrome,
     Firefoxbrowser,

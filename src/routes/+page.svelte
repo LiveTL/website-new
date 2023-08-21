@@ -5,15 +5,16 @@
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Github } from '@steeze-ui/simple-icons';
   import { GITHUB_ORG_URL } from '../const';
+
+  import { t } from '$lib/translation';
 </script>
 
 <div class="hero min-h-screen bg-gradient-to-b from-base-100 to-base-200">
   <div class="hero-content text-center">
     <div class="max-w-4xl space-y-8 py-8">
-      <h1 class="text-6xl font-bold text-secondary">Extensions by LiveTL</h1>
+      <h1 class="text-6xl font-bold text-secondary">{$t('home.title')}</h1>
       <p class="py-6 text-2xl text-info">
-        We make free and open source extensions, used and loved by thousands of
-        users around the world.
+        {$t('home.subtitle')}
       </p>
 
       <div
@@ -32,7 +33,7 @@
             </figure>
             <div class="card-body">
               <h2 class="card-title mx-auto text-4xl">LiveTL</h2>
-              <p>The ultimate way to watch foreign streamers.</p>
+              <p>{$t('home.livetl_desc')}</p>
             </div>
           </div>
         </a>
@@ -46,7 +47,7 @@
             </figure>
             <div class="card-body">
               <h2 class="card-title mx-auto text-4xl">HyperChat</h2>
-              <p>Optimized YouTube chat.</p>
+              <p>{$t('home.hyperchat_desc')}</p>
             </div>
           </div>
         </a>
@@ -64,7 +65,7 @@
             </figure>
             <div class="card-body">
               <h2 class="card-title mx-auto text-4xl">ytcFilter</h2>
-              <p>Capture messages from YouTube chat.</p>
+              <p>{$t('home.ytcfilter_desc')}</p>
             </div>
           </div>
         </a>
@@ -75,7 +76,7 @@
         class="btn-lg btn pointer-events-none gap-2 rounded-full text-base-100 shadow-md transition-all hover:scale-105 hover:text-base-200 hover:shadow-sm md:pointer-events-auto"
       >
         <Icon name="github" src={Github} size="28" />
-        Follow us on Github
+        {$t('home.github_follow_btn')}
       </a>
     </div>
   </div>

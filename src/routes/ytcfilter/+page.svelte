@@ -1,10 +1,7 @@
 <script lang="ts">
-  import YtcDemoBackground from '$lib/assets/ytcfilter/embedded-mode.png';
 </script>
 
-<div
-  class="hero min-h-screen"
->
+<div class="hero min-h-screen">
   <div class="hero-content text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold text-slate-900">YtcFilter</h1>

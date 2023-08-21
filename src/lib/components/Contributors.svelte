@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fly } from 'svelte/transition';
+
   export let contributors = [];
 </script>
 
@@ -6,8 +8,9 @@
   <!-- <h1 class="text-4xl font-bold mb-8">GitHub Contributors</h1> -->
 
   <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-    {#each contributors as contributor}
+    {#each contributors as contributor, i}
       <div
+        in:fly={{ y: 300, duration: 500, delay: i * 100 }}
         class="mx-auto flex w-52 flex-col rounded-lg bg-white p-4 shadow-md sm:w-fit sm:min-w-full"
       >
         <div class="avatar mx-auto my-4">
