@@ -1,10 +1,7 @@
 {
   "home.text": "The ultimate volunteer translation extension for YouTube and Twitch.",
-  "home.install_btn": "Install",
-  "home.learn_more_btn": "Learn More",
   "home.showcase.title": "The best way to watch foreign streamers",
   "home.showcase.text": "<span class=\"font-semibold text-info\">Filter</span> translations by your native language. Select your <span class=\"font-semibold text-info\">favorite translators</span>. Block <span class=\"font-semibold text-info\">spammers</span>. VOD support. Custom <span class=\"font-semibold text-info\">filters</span>.",
-  "customisables.title": "Customizable",
   "customisables.subtitle": "Make LiveTL look and behave exactly the way you want.",
   "customisables.filters.title": "Filters",
   "customisables.filters.description": "Filter by language, user types. Block and whitelist chatters. Optional spam protection.",
@@ -22,11 +19,8 @@
   "testimonials.reviews": "Reviews",
   "support.title": "<span class=\"text-info\">Support</span> the devs!",
   "support.text": "<p class=\"text-center text-lg\">All of our software is <a href=\"https://opensource.org/osd/\" class=\"link link-secondary\">open source</a> and free.</p><p class=\"text-center text-lg\">Donations are welcome through <a href={{openCollectiveURL}} class=\"link link-secondary whitespace-nowrap\">Open Collective</a> or <a href={{githubSponsorsURL}} class=\"link link-secondary whitespace-nowrap\">Github Sponsors</a>.</p>",
-  "about.title": "About",
   "about.text": "<b>LiveTL (Live TransLate)</b> is a browser extension that separates translations from regular chat messages in YouTube and Twitch streams.",
-  "about.features.title": "Features",
   "about.features.text": "<ul class=\"mb-6 list-inside list-disc\"><li><b>Filter translations</b> for your language (messages tagged with [en], es -, etc.)</li><li>Select your <b>favorite translators</b></li><li><b>Ban spammers</b> polluting translations</li><li>Freely resizable chat, translation panel, and stream</li><li>Optimized YouTube chat with <a href=\"/hyperchat\" class=\"link-secondary link\">HyperChat</a></li><li><b>Archived stream (VOD)</b> support</li><li>Custom user/mod <b>filters</b></li></ul>",
-  "install.title": "Install",
   "download_links.text": "Download Links",
   "download_links.steps": [
     "Click the download link for your browser to open the extension page in the appropriate web store.",

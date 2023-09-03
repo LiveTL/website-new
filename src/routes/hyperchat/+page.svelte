@@ -102,7 +102,7 @@
 </div>
 
 <CustomisablesHero
-  titleText={$t('hyperchat.customisables.title')}
+  titleText={$t('common.customisable')}
   subtitleText={$t('hyperchat.customisables.subtitle')}
   headingStyle="mt-2 text-5xl font-bold tracking-tight text-primary"
   {customisables}

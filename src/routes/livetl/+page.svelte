@@ -91,11 +91,11 @@
       <div class="space-x-1">
         <a
           class="btn btn-primary rounded-xl font-semibold text-base-100"
-          href="/livetl/install">{$t('livetl.home.install_btn')}</a
+          href="/livetl/install">{$t('common.install')}</a
         >
         <a
           class="btn btn-outline btn-secondary rounded-xl font-semibold"
-          href="/livetl/about">{$t('livetl.home.learn_more_btn')}</a
+          href="/livetl/about">{$t('common.learn_more')}</a
         >
       </div>
     </div>
@@ -122,7 +122,7 @@
 
 <CustomisablesHero
   {customisables}
-  titleText={$t('livetl.customisables.title')}
+  titleText={$t('common.customisable')}
   subtitleText={$t('livetl.customisables.subtitle')}
 />
 
