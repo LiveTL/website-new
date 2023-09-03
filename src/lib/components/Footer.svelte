@@ -1,5 +1,6 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl/logo.png';
+  import { t } from '$lib/translation';
 
   import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
   import { Discord, Github } from '@steeze-ui/simple-icons';
@@ -20,7 +21,7 @@
 
   const footerLinks = [
     {
-      title: 'Software',
+      title: $t('common.software'),
       links: [
         {
           name: 'LiveTL',
@@ -37,31 +38,31 @@
       ],
     },
     {
-      title: 'Community',
+      title: $t('common.community'),
       links: [
         {
-          name: 'About us',
+          name: $t('common.about_us'),
           url: '/about',
         },
         {
-          name: 'Contact',
+          name: $t('common.contact'),
           url: '/contact',
         },
         {
-          name: 'Donations',
+          name: $t('common.donations'),
           url: '/livetl/#donations',
         },
       ],
     },
     {
-      title: 'Support',
+      title: $t('support'),
       links: [
         {
           name: 'FAQ',
           url: '/faq',
         },
         {
-          name: 'Privacy Policy',
+          name: $t('common.privacy_policy'),
           url: '/privacy',
         },
       ],
