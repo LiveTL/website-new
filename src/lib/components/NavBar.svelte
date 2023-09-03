@@ -15,7 +15,7 @@
       class="min-w-fit transition duration-300 ease-in-out hover:scale-105 hover:opacity-90"
       ><img
         src={LiveTLLogo}
-        class="btn-square btn m-1 rounded-sm"
+        class="btn btn-square m-1 rounded-sm"
         alt="LiveTL logo"
       /></a
     >

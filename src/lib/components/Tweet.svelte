@@ -35,7 +35,7 @@
     <p>{text}</p>
 
     <span class="card-actions flex justify-end text-center text-sm">
-      <a href={sourceURL} class="link-hover link flex items-center">
+      <a href={sourceURL} class="link link-hover flex items-center">
         <Icon
           src={Twitter}
           theme="solid"

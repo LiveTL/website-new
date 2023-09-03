@@ -20,7 +20,7 @@
             <img src={contributor.avatar_url} alt="Contributor Avatar" />
           </div>
         </div>
-        <a href={contributor.url} class="link-hover link">
+        <a href={contributor.url} class="link link-hover">
           <p class="text-md mb-2 text-center font-bold">{contributor.login}</p>
         </a>
       </div>

@@ -67,11 +67,11 @@
       <p class="py-6 text-xl text-base-300">Optimized YouTube Chat.</p>
       <div class="space-x-1">
         <a
-          class="btn-primary btn rounded-xl text-base-100"
+          class="btn btn-primary rounded-xl text-base-100"
           href="/hyperchat/install">Install</a
         >
         <a
-          class="btn-outline btn-accent btn rounded-xl font-semibold"
+          class="btn btn-outline btn-accent rounded-xl font-semibold"
           href="/hyperchat/about">Learn more</a
         >
       </div>

@@ -93,7 +93,7 @@
     <div>
       <span class="footer-title text-base-100">{title}</span>
       {#each links as link}
-        <a class="link-hover link" href={link.url}>{link.name}</a>
+        <a class="link link-hover" href={link.url}>{link.name}</a>
       {/each}
     </div>
   {/each}

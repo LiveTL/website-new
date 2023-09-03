@@ -36,13 +36,31 @@ const config = {
       routes: ['/privacy'],
       loader: async () =>
         (await import('./translations/en/privacy.json')).default,
-    }, // Japanese
+    },
+    {
+      locale: 'en',
+      key: 'ytcfilter',
+      routes: ['/ytcfilter'],
+      loader: async () =>
+        (await import('./translations/en/ytcfilter.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'livetl',
+      routes: ['/livetl', '/livetl/about'],
+      loader: async () =>
+        (await import('./translations/en/livetl.json')).default,
+    },
+
+    // Japanese
     {
       locale: 'ja',
       key: 'home',
       loader: async () => (await import('./translations/ja/home.json')).default,
     },
   ],
+
+  preprocess: 'preserveArrays',
 };
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(

@@ -41,7 +41,7 @@
         href={downloadLinks['chrome']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn-primary btn mr-4 rounded-full text-base-100"
+        class="btn btn-primary mr-4 rounded-full text-base-100"
       >
         <Icon
           src={Googlechrome}
@@ -55,7 +55,7 @@
         href={downloadLinks['firefox']}
         target="_blank"
         rel="noopener noreferrer"
-        class="btn-secondary btn rounded-full text-base-100"
+        class="btn btn-secondary rounded-full text-base-100"
         ><Icon
           src={Firefoxbrowser}
           theme="solid"
@@ -86,13 +86,13 @@
       <p>
         This software is available under a <a
           href="https://choosealicense.com/licenses/agpl-3.0/"
-          class="link-secondary link">AGPL-3.0</a
+          class="link link-secondary">AGPL-3.0</a
         > license.
       </p>
       <p>
         Source code is available on <a
           href="https://github.com/LiveTL/LiveTL"
-          class="link-secondary link">Github</a
+          class="link link-secondary">Github</a
         >.
       </p>
     </div>
