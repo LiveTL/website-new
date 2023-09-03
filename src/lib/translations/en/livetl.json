@@ -28,5 +28,11 @@
     "Once the installation is complete, click the LiveTL icon in your browser's toolbar to open the extension.",
     "Configure your language and translation preferences in the extension settings.",
     "Visit a YouTube or Twitch stream and start using LiveTL!"
-  ]
+  ],
+  "install.title": "Install <span class=\"bg-gradient-to-tr from-info to-accent bg-clip-text text-transparent\">LiveTL</span>",
+  "install.more_options": "More install options",
+  "install.chrome": "Download for Chrome",
+  "install.firefox": "Download for Firefox",
+  "install.license": "This software is available under a <a href=\"https://choosealicense.com/licenses/agpl-3.0/\" class=\"link link-secondary\">AGPL-3.0</a> license.",
+  "install.source_code": "Source code is available on <a href=\"https://github.com/LiveTL/LiveTL\" class=\"link link-secondary\">Github</a>."
 }

@@ -53,7 +53,7 @@ const config = {
     {
       locale: 'en',
       key: 'livetl',
-      routes: ['/livetl', '/livetl/about'],
+      routes: ['/livetl', '/livetl/about', '/livetl/install'],
       loader: async () =>
         (await import('./translations/en/livetl.json')).default,
     },

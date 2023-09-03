@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { PageData } from './$types';
+  import { t } from '$lib/translation';
 
   import LiveTLLogoBig from '$lib/assets/livetl/logo-big.png';
 
@@ -17,8 +17,6 @@
     Googlechrome,
     Firefoxbrowser,
   } from '@steeze-ui/simple-icons';
-
-  export let data: PageData;
 </script>
 
 <div class="container mx-auto">
@@ -29,10 +27,7 @@
       class="mx-auto my-8 w-48 rounded-2xl shadow-2xl shadow-info"
     />
     <h1 class="mb-4 text-center text-4xl font-bold">
-      Install <span
-        class="bg-gradient-to-tr from-info to-accent bg-clip-text text-transparent"
-        >LiveTL</span
-      >
+      {@html $t('livetl.install.title')}
     </h1>
     <div
       class="flex flex-col justify-center space-y-4 py-4 sm:flex-row sm:space-y-0"
@@ -49,7 +44,7 @@
           size="18"
           class="mr-2 justify-end"
         />
-        Download for Chrome</a
+        {$t('livetl.install.chrome')}</a
       >
       <a
         href={downloadLinks['firefox']}
@@ -61,11 +56,13 @@
           theme="solid"
           size="18"
           class="mr-2 justify-end"
-        />Download for Firefox</a
+        />{$t('livetl.install.firefox')}</a
       >
     </div>
 
-    <h2 class="my-4 text-center text-2xl font-bold">More install options</h2>
+    <h2 class="my-4 text-center text-2xl font-bold">
+      {$t('livetl.install.more_options')}
+    </h2>
     <div
       class="flex flex-col justify-center space-y-4 py-4 sm:flex-row sm:space-y-0"
     >
@@ -83,18 +80,8 @@
       >
     </div>
     <div class="mx-auto mt-8 space-y-8 text-center text-base">
-      <p>
-        This software is available under a <a
-          href="https://choosealicense.com/licenses/agpl-3.0/"
-          class="link link-secondary">AGPL-3.0</a
-        > license.
-      </p>
-      <p>
-        Source code is available on <a
-          href="https://github.com/LiveTL/LiveTL"
-          class="link link-secondary">Github</a
-        >.
-      </p>
+      <p>{@html $t('livetl.install.license')}</p>
+      <p>{@html $t('livetl.install.source_code')}</p>
     </div>
   </div>
 </div>
