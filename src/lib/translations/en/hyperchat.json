@@ -1,0 +1,19 @@
+{
+  "title": "<h1>Hyper<span class=\"text-base-100\">Chat</span></h1>",
+  "by_livetl": "By <span class=\"text-base-100\">LiveTL</span>",
+  "tagline": "Optimized YouTube Chat.",
+  "showcase.title": "Elevate your YouTube livestream experience.",
+  "showcase.text": "Performance optimizations. Customization options. Cutting-edge features!",
+  "customisables.title": "Customizable",
+  "customisables.subtitle": "Adapt HyperChat for you.",
+  "customisables.theme.title": "Pick your theme",
+  "customisables.theme.description": "Choose from light, dark or the stock YouTube theme.",
+  "customisables.rendering.title": "Chat message rendering",
+  "customisables.rendering.description": "Pick whether to show profile icons, badges, mentions etc.",
+  "customisables.emojis.title": "Emojis",
+  "customisables.emojis.description": "Pick how to show emojis, and whether to hide them.",
+  "customisables.filters.title": "Filters",
+  "customisables.filters.description": "See members-only messages.",
+  "about.text": "<b>HyperChat</b> is a browser extension that enhances the YouTube live chat experience. It reduces the CPU and memory usage of the default YouTube live chat significantly, and provides more customization options.",
+  "install.text": "You can install HyperChat from the <a href=\"/hyperchat/install\" class=\"link link-primary\">install page</a>."
+}

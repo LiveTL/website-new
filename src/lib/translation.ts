@@ -6,6 +6,12 @@ const config = {
     // English
     {
       locale: 'en',
+      key: 'common',
+      loader: async () =>
+        (await import('./translations/en/common.json')).default,
+    },
+    {
+      locale: 'en',
       key: 'home',
       routes: ['/'],
       loader: async () => (await import('./translations/en/home.json')).default,
@@ -50,6 +56,13 @@ const config = {
       routes: ['/livetl', '/livetl/about'],
       loader: async () =>
         (await import('./translations/en/livetl.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'hyperchat',
+      routes: ['/hyperchat', '/hyperchat/about', '/hyperchat/install'],
+      loader: async () =>
+        (await import('./translations/en/hyperchat.json')).default,
     },
 
     // Japanese
