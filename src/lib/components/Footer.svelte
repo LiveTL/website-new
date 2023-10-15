@@ -75,7 +75,7 @@
     <!-- svelte-ignore a11y-missing-attribute -->
     <img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
     <p>
-      LiveTL Developers © 2023<br />By VTuber fans, for VTuber fans.
+      LiveTL Developers © 2023<br />For Vtuber fans, by Vtuber fans.
     </p>
     <div class="flex flex-row gap-4">
       {#each socialLinks as { name, url, icon }}

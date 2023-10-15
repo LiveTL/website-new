@@ -1,6 +1,6 @@
 {
-  "home.text": "The ultimate volunteer translation extension for YouTube and Twitch.",
-  "home.showcase.title": "The best way to watch foreign streamers",
+  "home.text": "The ultimate way to watch foreign streamers.",
+  "home.showcase.title": "An Unmatched Livestream Viewing Experience",
   "home.showcase.text": "<span class=\"font-semibold text-info\">Filter</span> translations by your native language. Select your <span class=\"font-semibold text-info\">favorite translators</span>. Block <span class=\"font-semibold text-info\">spammers</span>. VOD support. Custom <span class=\"font-semibold text-info\">filters</span>.",
   "customisables.subtitle": "Make LiveTL look and behave exactly the way you want.",
   "customisables.filters.title": "Filters",
@@ -12,7 +12,7 @@
   "customisables.shortcuts.title": "Shortcuts & Keybindings",
   "customisables.shortcuts.description": "Use default shortcuts or create your own.",
   "customisables.chat_improvements.title": "Chat Improvements",
-  "customisables.chat_improvements.description": "Change the chat zoom and font size.",
+  "customisables.chat_improvements.description": "LiveTL comes bundled with HyperChat, improving your YouTube chat experience.",
   "customisables.export_import.title": "Export/Import settings",
   "customisables.export_import.description": "Export and import your settings as JSON.",
   "testimonials.title": "What do people say?",
