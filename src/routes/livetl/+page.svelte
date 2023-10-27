@@ -79,7 +79,7 @@
 </script>
 
 <div
-  class="hero min-h-screen snap-start bg-gradient-to-tr from-info to-accent bg-scroll"
+  class="hero min-h-[60vh] snap-start bg-gradient-to-tr from-info to-accent bg-scroll"
 >
   <div class="hero-content text-center">
     <div class="max-w-md">
@@ -95,7 +95,7 @@
         >
         <a
           class="btn btn-outline btn-secondary rounded-xl font-semibold"
-          href="/livetl/about">{$t('common.learn_more')}</a
+          href="/livetl/about">{$t('common.manual')}</a
         >
       </div>
     </div>
