@@ -8,7 +8,7 @@ export default {
     themes: [
       {
         livetl: {
-          primary: '#ff0000', // Youtube Red
+          primary: '#b30000', // Youtube Red
           secondary: '#394aae', // LiveTL "blue"
           accent: '#00F0D4', // LiveTL logo aqua
           neutral: '#181A2A',
