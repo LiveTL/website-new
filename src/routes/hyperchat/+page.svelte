@@ -42,7 +42,7 @@
   export let data: PageData;
 </script>
 
-<div class="hero relative min-h-screen bg-slate-900">
+<div class="hero relative min-h-[75vh] bg-slate-900">
   <video
     autoplay
     loop
@@ -58,11 +58,11 @@
   <div class="hero-content relative text-center">
     <div class="max-w-md">
       <img src={hyperChatLogo} alt="HyperChat Logo" class="mx-auto w-48" />
-      <div class="my-2 text-7xl font-bold tracking-wide text-primary">
+      <div class="my-2 text-7xl font-bold tracking-wide text-[#ff0000]">
         {@html $t('hyperchat.title')}
       </div>
 
-      <p class="text-lg font-bold text-primary">
+      <p class="text-lg font-bold text-[#ff0000]">
         {@html $t('hyperchat.by_livetl')}
       </p>
 
@@ -104,6 +104,6 @@
 <CustomisablesHero
   titleText={$t('common.customisable')}
   subtitleText={$t('hyperchat.customisables.subtitle')}
-  headingStyle="mt-2 text-5xl font-bold tracking-tight text-primary"
+  headingStyle="mt-2 text-5xl font-bold tracking-tight text-[#ff0000]"
   {customisables}
 />
