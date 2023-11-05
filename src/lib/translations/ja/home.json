@@ -1,3 +1,8 @@
 {
-  "title": "Extensions by LiveTL"
+  "title": "LiveTLによる拡張機能",
+  "subtitle": "私たちは無料でオープンソースの拡張機能を作成しており、世界中の何千ものユーザーに使用され愛されています。",
+  "livetl_desc": "外国のストリーマーを見る究極の方法。",
+  "hyperchat_desc": "最適化されたYouTubeチャット。",
+  "ytcfilter_desc": "YouTubeチャットからメッセージをキャプチャ。",
+  "github_follow_btn": "GitHubでフォローする"
 }

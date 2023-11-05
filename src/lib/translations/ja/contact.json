@@ -1,0 +1,4 @@
+{
+  "title": "お問い合わせ",
+  "description": "サポートを求めたり問題を報告する前に、<a href=\"/faq\" class=\"link-secondary link\">FAQ</a>を読んでください！私たちと連絡を取る主な方法は、<a href={discordServerUrl} class=\"link-secondary link\">Discordサーバー</a>でのやり取りです。私たちのすべてのソースコードはGitHubで見ることができます。"
+}

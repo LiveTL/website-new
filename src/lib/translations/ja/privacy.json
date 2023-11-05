@@ -1,0 +1,9 @@
+{
+  "title": "LiveTL プライバシーポリシー",
+  "personal_data.title": "個人データ",
+  "personal_data.text": "LiveTL Webはできるだけ少ない個人データを直接収集するため、サービスにログインしない場合、データは収集されません。ただし、サービスが使用する一部の第三者サービスによってデータが収集される可能性があります。詳細は第三者サービスセクションをご覧ください。<br/> Googleアカウントを使用してサービスにログインすると、Googleアカウントから収集された様々な情報が保存されます。例えば、表示名とメールアドレスなどです。",
+  "third_party.title": "第三者サービス",
+  "third_party.text": "LiveTL Webは、あなたに関する個人情報を収集する可能性のあるいくつかの第三者サービスを使用しています。<br/>これらのサービスには（限定されませんが）次のものが含まれます：Google（Firebaseホスティング、Firestore、Firebase認証、Googleフォント）、およびCloudflare（DNSとキャッシュ）。",
+  "translator_data.title": "翻訳者 / 翻訳データ",
+  "translator_data.text": "LiveTL翻訳者として登録すると、LiveTL WebはGoogleアカウントに関連付けられているYouTubeチャンネルIDと、登録プロセス中に入力した情報を検索して保存します。"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "<h1>ハイパー<span class=\"text-base-100\">チャット</span></h1>",
+  "by_livetl": "<span class=\"text-base-100\">LiveTL</span>による",
+  "tagline": "最適化されたYouTubeチャット。",
+  "showcase.title": "YouTubeライブストリーム体験を向上させましょう。",
+  "showcase.text": "大幅なパフォーマンスの最適化、追加のカスタマイズオプション、実験的な機能をお楽しみください！",
+  "customisables.subtitle": "あなたに合わせてHyperChatをカスタマイズ。",
+  "customisables.theme.title": "テーマを選択",
+  "customisables.theme.description": "YouTubeのテーマに自動的に合わせるか、ライトまたはダークを自分で選択します。",
+  "customisables.rendering.title": "チャットメッセージのレンダリング",
+  "customisables.rendering.description": "プロフィール画像、ユーザーバッジ、メンションなどを表示または非表示にします。",
+  "customisables.emojis.title": "絵文字",
+  "customisables.emojis.description": "絵文字を表示、非表示にするか、システムでレンダリングされた絵文字を使用します。",
+  "customisables.filters.title": "フィルター",
+  "customisables.filters.description": "チャンネルメンバーからのメッセージのみを表示します。",
+  "about.text": "<b>ハイパーチャット</b>は、YouTubeライブチャットの体験を向上させるブラウザ拡張機能です。デフォルトのYouTubeライブチャットのCPU使用量とメモリ使用量を大幅に削減し、より多くのカスタマイズオプションを提供します。",
+  "install.text": "HyperChatは、<a href=\"/hyperchat/install\" class=\"link link-primary\">インストールページ</a>からインストールできます。"
+}

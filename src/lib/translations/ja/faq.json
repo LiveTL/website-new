@@ -1,0 +1,11 @@
+{
+  "title": "よくある質問",
+  "how_does_livetl_work.title": "LiveTLはどのように機能しますか？",
+  "how_does_livetl_work.text": "LiveTLの基本は、YouTubeストリームの<i><b>チャットフィルター</b></i>です。<b class=\"text-red-600\">LiveTLは自動的にストリームを翻訳するわけではありません</b> – 代わりに、チャットで見つかった翻訳を拾います。これは外国人視聴者がYouTubeライブチャットで他の視聴者が提供している翻訳をより捉えやすくするのに役立ちます。",
+  "livetl_not_loading.title": "LiveTLでストリームを開いたけど、ロードされませんか？",
+  "livetl_not_loading.text": "チャットが一時的に利用できない可能性があります。LiveTLは、ストリームが有効なライブチャットまたはチャットリプレイを持っている場合にのみロードされます。",
+  "no_translations.title": "翻訳パネルに翻訳が表示されないのはなぜですか？",
+  "no_translations.text": "チャットに翻訳者がいない場合、LiveTLは翻訳を表示することができません。言語コードで適切にタグ付けされたメッセージ（例：<code>[en] &lt;翻訳&gt;</code>、<code>ESP: &lt;翻訳&gt;</code>など）は、チャットに表示されたときに表示されます。",
+  "translator_own_tags.title": "翻訳者が独自の言語タグスタイルを使用していますが、どうすれば表示されますか？",
+  "translator_own_tags.text": "設定で追加のユーザーを手動でフィルタリングすることができます。"
+}
