@@ -1,8 +1,8 @@
 {
-  "title": "LiveTLによる拡張機能",
-  "subtitle": "私たちは無料でオープンソースの拡張機能を作成しており、世界中の何千ものユーザーに使用され愛されています。",
-  "livetl_desc": "外国のストリーマーを見る究極の方法。",
-  "hyperchat_desc": "最適化されたYouTubeチャット。",
-  "ytcfilter_desc": "YouTubeチャットからメッセージをキャプチャ。",
-  "github_follow_btn": "GitHubでフォローする"
+  "title": "LiveTL 関連の拡張機能",
+  "subtitle": "以下の拡張機能は全て無料でオープンソースな上、世界中で何千人ものユーザーが使用しています。",
+  "livetl_desc": "海外の配信者を観るのに便利なツール",
+  "hyperchat_desc": "YouTube チャットの便利さをグン！と上げるツール",
+  "ytcfilter_desc": "YouTube チャットのメッセージをキャプチャするツール",
+  "github_follow_btn": "GitHub でフォローする"
 }

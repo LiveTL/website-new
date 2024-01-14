@@ -1,15 +1,15 @@
 {
   "install": "インストール",
-  "about": "紹介",
-  "features": "特徴",
+  "about": "詳細",
+  "features": "機能",
   "customisable": "カスタマイズ可能",
-  "learn_more": "もっと詳しく",
-  "manual": "マニュアル",
+  "learn_more": "詳しく読む",
+  "manual": "説明書",
   "software": "ソフトウェア",
   "community": "コミュニティ",
   "support": "サポート",
-  "about_us": "私たちについて",
+  "about_us": "開発チームについて",
   "contact": "連絡先",
-  "donations": "寄付",
-  "privacy_policy": "プライバシーポリシー"
+  "donations": "ドネーション",
+  "privacy_policy": "プライバシー・ポリシー"
 }
