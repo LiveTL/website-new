@@ -2,6 +2,8 @@
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Github } from '@steeze-ui/simple-icons';
 
+  import { t } from '$lib/translation';
+
   const openCollectiveURL = 'https://opencollective.com/livetl';
   const githubSponsorsURL = 'https://github.com/sponsors/LiveTL';
 </script>
@@ -10,25 +12,13 @@
   <div class="hero-content">
     <div class="flex max-w-md flex-col space-y-8">
       <h1 class="text-center text-5xl font-bold" id="donations">
-        <span class="text-info">Support</span> the devs!
+        {@html $t('livetl.support.title')}
       </h1>
-      <p class="text-center text-lg">
-        All of our software is <a
-          href="https://opensource.org/osd/"
-          class="link-secondary link">open source</a
-        > and free.
-      </p>
-      <p class="text-center text-lg">
-        Donations are welcome through <a
-          href={openCollectiveURL}
-          class="link-secondary link whitespace-nowrap">Open Collective</a
-        >
-        or
-        <a
-          href={githubSponsorsURL}
-          class="link-secondary link whitespace-nowrap">Github Sponsors</a
-        >.
-      </p>
+
+      {@html $t('livetl.support.text', {
+        openCollectiveURL,
+        githubSponsorsURL,
+      })}
 
       <a href={openCollectiveURL}>
         <svg

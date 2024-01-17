@@ -1,0 +1,7 @@
+{
+  "title": "LiveTL プライバシーポリシー",
+  "personal_data.title": "個人データ",
+  "personal_data.text": "LiveTL Webは最小限の個人データを収集するため、サービスにログインしない場合、データは収集されません。ただし、サービスが使用する一部の第三者サービスによってデータが収集される可能性があります。詳細は第三者サービスセクションをご覧ください。<br/> Googleアカウントを使用してサービスにログインすると、アカウントの表示名とメールアドレスなどが収集される際がございますので、予めご了承ください。",
+  "third_party.title": "第三者サービス",
+  "third_party.text": "LiveTL の HP は、Google（Firebase ホスティング、Firestore、Firebase 認証、Google フォント）、Cloudflare（DNSとキャッシュ）などと、個人情報を収集する第三者サービスを使用しています。予めご了承ください。"
+}

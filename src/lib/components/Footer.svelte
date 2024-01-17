@@ -1,5 +1,6 @@
 <script lang="ts">
   import LiveTLLogo from '$lib/assets/livetl/logo.png';
+  import { t } from '$lib/translation';
 
   import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
   import { Discord, Github } from '@steeze-ui/simple-icons';
@@ -20,7 +21,7 @@
 
   const footerLinks = [
     {
-      title: 'Software',
+      title: $t('common.software'),
       links: [
         {
           name: 'LiveTL',
@@ -37,31 +38,31 @@
       ],
     },
     {
-      title: 'Community',
+      title: $t('common.community'),
       links: [
         {
-          name: 'About us',
+          name: $t('common.about_us'),
           url: '/about',
         },
         {
-          name: 'Contact',
+          name: $t('common.contact'),
           url: '/contact',
         },
         {
-          name: 'Donations',
+          name: $t('common.donations'),
           url: '/livetl/#donations',
         },
       ],
     },
     {
-      title: 'Support',
+      title: $t('support'),
       links: [
         {
           name: 'FAQ',
           url: '/faq',
         },
         {
-          name: 'Privacy Policy',
+          name: $t('common.privacy_policy'),
           url: '/privacy',
         },
       ],
@@ -74,7 +75,7 @@
     <!-- svelte-ignore a11y-missing-attribute -->
     <img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
     <p>
-      LiveTL Developers © 2023<br />By VTuber fans, for VTuber fans.
+      LiveTL Developers © 2023<br />For Vtuber fans, by Vtuber fans.
     </p>
     <div class="flex flex-row gap-4">
       {#each socialLinks as { name, url, icon }}

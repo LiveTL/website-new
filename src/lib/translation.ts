@@ -3,10 +3,17 @@ import i18n from 'sveltekit-i18n';
 /** @type {import('sveltekit-i18n').Config} */
 const config = {
   loaders: [
+    // English
+    {
+      locale: 'en',
+      key: 'common',
+      loader: async () =>
+        (await import('./translations/en/common.json')).default,
+    },
     {
       locale: 'en',
       key: 'home',
-      routes: ['/'], // you can use regexes as well!
+      routes: ['/'],
       loader: async () => (await import('./translations/en/home.json')).default,
     },
     {
@@ -17,11 +24,110 @@ const config = {
         (await import('./translations/en/about.json')).default,
     },
     {
-      locale: 'cs',
+      locale: 'en',
+      key: 'contact',
+      routes: ['/contact'],
+      loader: async () =>
+        (await import('./translations/en/contact.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'faq',
+      routes: ['/faq'],
+      loader: async () => (await import('./translations/en/faq.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'privacy',
+      routes: ['/privacy'],
+      loader: async () =>
+        (await import('./translations/en/privacy.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'ytcfilter',
+      routes: ['/ytcfilter'],
+      loader: async () =>
+        (await import('./translations/en/ytcfilter.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'livetl',
+      routes: ['/livetl', '/livetl/about', '/livetl/install'],
+      loader: async () =>
+        (await import('./translations/en/livetl.json')).default,
+    },
+    {
+      locale: 'en',
+      key: 'hyperchat',
+      routes: ['/hyperchat', '/hyperchat/about', '/hyperchat/install'],
+      loader: async () =>
+        (await import('./translations/en/hyperchat.json')).default,
+    },
+
+    // Japanese
+    {
+      locale: 'ja',
       key: 'common',
+      loader: async () =>
+        (await import('./translations/ja/common.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'home',
       loader: async () => (await import('./translations/ja/home.json')).default,
     },
+    {
+      locale: 'ja',
+      key: 'about',
+      routes: ['/about'],
+      loader: async () =>
+        (await import('./translations/ja/about.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'contact',
+      routes: ['/contact'],
+      loader: async () =>
+        (await import('./translations/ja/contact.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'faq',
+      routes: ['/faq'],
+      loader: async () => (await import('./translations/ja/faq.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'privacy',
+      routes: ['/privacy'],
+      loader: async () =>
+        (await import('./translations/ja/privacy.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'ytcfilter',
+      routes: ['/ytcfilter'],
+      loader: async () =>
+        (await import('./translations/ja/ytcfilter.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'livetl',
+      routes: ['/livetl', '/livetl/about', '/livetl/install'],
+      loader: async () =>
+        (await import('./translations/ja/livetl.json')).default,
+    },
+    {
+      locale: 'ja',
+      key: 'hyperchat',
+      routes: ['/hyperchat', '/hyperchat/about', '/hyperchat/install'],
+      loader: async () =>
+        (await import('./translations/ja/hyperchat.json')).default,
+    }
   ],
+
+  preprocess: 'preserveArrays',
 };
 
 export const { t, locale, locales, loading, loadTranslations } = new i18n(

@@ -73,7 +73,7 @@
 
       <a
         href={GITHUB_ORG_URL}
-        class="btn-lg btn pointer-events-none gap-2 rounded-full text-base-100 shadow-md transition-all hover:scale-105 hover:text-base-200 hover:shadow-sm md:pointer-events-auto"
+        class="btn btn-lg pointer-events-none gap-2 rounded-full text-base-100 shadow-md transition-all hover:scale-105 hover:text-base-200 hover:shadow-sm md:pointer-events-auto"
       >
         <Icon name="github" src={Github} size="28" />
         {$t('home.github_follow_btn')}
