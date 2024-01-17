@@ -3,9 +3,15 @@
   import { Github } from '@steeze-ui/simple-icons';
 
   import { t } from '$lib/translation';
+  import type { Parser } from 'sveltekit-i18n';
 
   const openCollectiveURL = 'https://opencollective.com/livetl';
   const githubSponsorsURL = 'https://github.com/sponsors/LiveTL';
+
+  let supportText = {
+    openCollectiveURL,
+    githubSponsorsURL,
+  } as Parser.PayloadDefault;
 </script>
 
 <div class="hero h-[75vh] snap-start bg-base-200">
@@ -15,10 +21,7 @@
         {@html $t('livetl.support.title')}
       </h1>
 
-      {@html $t('livetl.support.text', {
-        openCollectiveURL,
-        githubSponsorsURL,
-      })}
+      {@html $t('livetl.support.text', supportText)}
 
       <a href={openCollectiveURL}>
         <svg

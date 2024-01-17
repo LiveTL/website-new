@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { PageData } from './$types';
   import hyperChatBrowserDemo from '$lib/assets/hyperchat/browser-demo-peko-kiara.png';
   import hyperChatLogo from '$lib/assets/hyperchat/logo.png';
   import CustomisablesHero from '$lib/components/CustomisablesHero.svelte';
@@ -38,8 +37,6 @@
 </svg>`,
     },
   ];
-
-  export let data: PageData;
 </script>
 
 <div class="hero relative min-h-[75vh] bg-slate-900">
