@@ -8,7 +8,7 @@
   "customisables.read_aloud.title": "読み上げ",
   "customisables.read_aloud.description": "翻訳メッセージを電子ボイスで読み上げ。マルチタスキングに便利。",
   "customisables.layouts.title": "レイアウト",
-  "customisables.layouts.description": "チャットやビデオの位置を自由に変更。独自のプリセットを作成。",
+  "customisables.layouts.description": "チャットやビデオの位置や大きさを自由に変更。独自のプリセットを作成。",
   "customisables.shortcuts.title": "ショートカット・キーバインディング",
   "customisables.shortcuts.description": "便利なショートカットが盛沢山。独自のも作成可能。",
   "customisables.chat_improvements.title": "チャットの拡張",
@@ -18,21 +18,20 @@
   "testimonials.title": "ユーザーの評価？",
   "testimonials.reviews": "レビュー",
   "support.title": "<span class=\"text-info\">開発者を</span>サポート！",
-  "support.text": "<p class=\"text-center text-lg\">我々のソフトウェアは全て<a href=\"https://opensource.org/osd/\" class=\"link link-secondary\">オープンソース</a>な上、無料です。開発に掛かる費用を</p><p class=\"text-center text-lg\"><a href={{openCollectiveURL}} class=\"link link-secondary whitespace-nowrap\">Open Collective</a>または<a href={{githubSponsorsURL}} class=\"link link-secondary whitespace-nowrap\">Github Sponsors</a>を通して支援して頂けるとありがたいです。</p>",
-  "about.text": "<b>LiveTL（ライブ翻訳）</b>は、YouTubeやTwitchのストリームで通常のチャットメッセージから翻訳を分離するブラウザ拡張機能です。",
-  "about.features.text": "<ul class=\"mb-6 list-inside list-disc\"><li>言語（メッセージに[en]、es - などがタグ付けされている）で<b>翻訳をフィルタリング</b>します</li><li>お気に入りの<b>翻訳者</b>を選択</li><li>翻訳を汚染する<b>スパマーを禁止</b></li><li>チャット、翻訳パネル、ストリームを自由にサイズ変更可能</li><li><a href=\"/hyperchat\" class=\"link-secondary link\">HyperChat</a>による最適化されたYouTubeチャット</li><li><b>アーカイブされたストリーム（VOD）</b>サポート</li><li>カスタムユーザー/モデレーター<b>フィルター</b></li></ul>",
-  "download_links.text": "ダウンロードリンク",
+  "support.text": "<p class=\"text-center text-lg\">我々のソフトウェアは全て<a href=\"https://opensource.org/osd/\" class=\"link link-secondary\">オープンソース</a>な上、無料で提供しています。開発費などは自腹なので、<a href={{openCollectiveURL}} class=\"link link-secondary whitespace-nowrap\">Open Collective</a>または<a href={{githubSponsorsURL}} class=\"link link-secondary whitespace-nowrap\">Github Sponsors</a>を通しての支援を是非ともよろしくお願いします。</p>",
+  "about.text": "<b>LiveTL (Live TransLate)</b>は、YouTube や Twitchのストリームで通常のチャットメッセージから翻訳を分離するブラウザ拡張機能です。",
+  "about.features.text": "<ul class=\"mb-6 list-inside list-disc\"><li>言語コードでタグ付けされたメッセージ（例: <code>[en] &lt;翻訳&gt;</code>、<code>ESP: &lt;翻訳&gt;</code> など）をフィルター</li><li>お気に入りの通訳をハイライト</li><li>アンチやすぱまーを簡単にブロック</li><li>チャットやビデオの位置や大きさの変更、独自のプリセットの作成</li><li>セットで導入される <a href=\"/hyperchat\" class=\"link-secondary link\">HyperChat</a> で、YouTube のチャットをまるまる改善</li><li>アーカイブ（VOD）対応</li><li>カスタムユーザー/モデレーターフィルター</li></ul>",
+  "download_links.text": "ダウンロードへのリンク",
   "download_links.steps": [
-    "ブラウザ用のダウンロードリンクをクリックして、適切なウェブストアで拡張機能ページを開きます。",
-    "「Chromeに追加」または「Firefoxに追加」ボタンをクリックして、拡張機能をインストールします。",
-    "インストールが完了したら、ブラウザのツールバーにあるLiveTLアイコンをクリックして、拡張機能を開きます。",
-    "拡張機能の設定で言語と翻訳の好みを設定します。",
-    "YouTubeまたはTwitchのストリームにアクセスし、LiveTLを使用し始めます！"
+    "適切なブラウザ用のダウンロードリンクをクリックし、ウェブストアで拡張機能の HP をご覧ください。",
+    "「Chrome に追加」、または「Firefox に追加」のボタンをクリックして、拡張機能をインストールして下さい。",
+    "インストールが完了したら、YouTube の配信のチャットの下に追加されている LiveTL のボタンをクリックして、拡張機能を開く事が出来ます。",
+    "拡張機能の設定で、フィルターの言語を設定出来ます。"
   ],
-  "install.title": "インストール<span class=\"bg-gradient-to-tr from-info to-accent bg-clip-text text-transparent\">LiveTL</span>",
+  "install.title": "<span class=\"bg-gradient-to-tr from-info to-accent bg-clip-text text-transparent\">LiveTL</span> をインストール",
   "install.more_options": "その他のインストールオプション",
-  "install.chrome": "Chrome用ダウンロード",
-  "install.firefox": "Firefox用ダウンロード",
-  "install.license": "このソフトウェアは<a href=\"https://choosealicense.com/licenses/agpl-3.0/\" class=\"link link-secondary\">AGPL-3.0</a>ライセンスの下で利用可能です。",
-  "install.source_code": "<a href=\"https://github.com/LiveTL/LiveTL\" class=\"link link-secondary\">Github</a>でソースコードを入手できます。"
+  "install.chrome": "Chrome 用ダウンロード",
+  "install.firefox": "Firefox 用ダウンロード",
+  "install.license": "このソフトウェアは<a href=\"https://choosealicense.com/licenses/agpl-3.0/\" class=\"link link-secondary\">AGPL-3.0</a>ライセンスの下提供されています。",
+  "install.source_code": "ソースコードは<a href=\"https://github.com/LiveTL/LiveTL\" class=\"link link-secondary\">Github</a>にて開示しています。"
 }

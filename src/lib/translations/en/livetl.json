@@ -25,9 +25,8 @@
   "download_links.steps": [
     "Click the download link for your browser to open the extension page in the appropriate web store.",
     "Click the \"Add to Chrome\" or \"Add to Firefox\" button to install the extension.",
-    "Once the installation is complete, click the LiveTL icon in your browser's toolbar to open the extension.",
-    "Configure your language and translation preferences in the extension settings.",
-    "Visit a YouTube or Twitch stream and start using LiveTL!"
+    "Once the installation is complete, open a YouTube stream and click on the LiveTL buttons at the bottom of the chat.",
+    "Configure your language and translation preferences in the extension settings."
   ],
   "install.title": "Install <span class=\"bg-gradient-to-tr from-info to-accent bg-clip-text text-transparent\">LiveTL</span>",
   "install.more_options": "More install options",

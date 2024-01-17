@@ -1,7 +1,7 @@
 {
   "title": "よくある質問・問い合わせ",
   "how_does_livetl_work.title": "LiveTL とは？",
-  "how_does_livetl_work.text": "LiveTL は、YouTube の生配信用の <i><b>チャットフィルター</b></i> です。<b class=\"text-red-600\">LiveTL は配信の自動翻訳をするツールではありません</b>。短く言うと、チャットにある通訳のメッセージを自動的に拾うフィルターです。LiveTL は主に外国人視聴者が YouTube のライブチャットにて使用します。",
+  "how_does_livetl_work.text": "LiveTL は、YouTube の生配信用の <i><b>チャットフィルター</b></i> です。<b class=\"text-red-600\">LiveTL は配信の自動翻訳をするツールではありません</b>。完結には、チャットにある通訳のメッセージを自動的に拾うフィルターです。LiveTL は主に外国人視聴者が YouTube のライブチャットにて使用します。",
   "livetl_not_loading.title": "LiveTL でストリームを開いたものの、翻訳のキャプチャが始まらない",
   "livetl_not_loading.text": "チャットが一時的に利用できない場合がございます。LiveTL は、有効な配信のチャット、または有効なチャットのリプレイの場合のみ正しく作動します。",
   "no_translations.title": "翻訳パネルに翻訳が表示されない",

@@ -10,10 +10,6 @@
       header: $t('privacy.third_party.title'),
       text: $t('privacy.third_party.text'),
     },
-    {
-      header: $t('privacy.translator_data.title'),
-      text: $t('privacy.translator_data.text'),
-    },
   ];
 </script>
 

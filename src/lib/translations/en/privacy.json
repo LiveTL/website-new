@@ -1,9 +1,7 @@
 {
   "title": "LiveTL Privacy Policy",
   "personal_data.title": "Personal data",
-  "personal_data.text": "LiveTL Web directly collects as little personal data as possible, as such, when you do not login to the service, no data is collected by it. Note that some of the third party services used by the service may still collect data. Learn more in the Third Party Services section.<br/> When you log into the service using your Google Account, various pieces of information gathered from your Google Account are stored, such as your Display Name and Email.",
+  "personal_data.text": "The LiveTL website directly collects as little personal data as possible, as such, when you do not login to the service, no data is collected by it. Note that some of the third party services used by the service may still collect data. Learn more in the Third Party Services section.<br/> When you log into the service using your Google Account, information such as your Display Name and Email may be stored.",
   "third_party.title": "Third Party Services",
-  "third_party.text": "LiveTL Web makes use of several third party services which may collect personal information about you.<br/>These services include (but are not limited to): Google (Firebase Hosting, Firestore, Firebase Authentication, and Google Fonts), and Cloudflare (DNS and Cache).",
-  "translator_data.title": "Translator / Translation Data",
-  "translator_data.text": "When you register as a LiveTL Translator, LiveTL Web will lookup and store the YouTube Channel ID associated with your Google Account, along with any information you entered during the registration process."
+  "third_party.text": "The LiveTL website makes use of several third party services which may collect personal information about you.<br/>These services include (but are not limited to): Google (Firebase Hosting, Firestore, Firebase Authentication, and Google Fonts), and Cloudflare (DNS and Cache)."
 }
