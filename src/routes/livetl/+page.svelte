@@ -3,17 +3,14 @@
 
   import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png';
 
-  import TwitterTestimonials from '$lib/components/TwitterTestimonials.svelte';
+  import Opinions from '$lib/components/Opinions.svelte';
+  import XTestimonials from '$lib/components/XTestimonials.svelte';
   import Reviews from '$lib/components/Reviews.svelte';
   import CustomisablesHero from '$lib/components/CustomisablesHero.svelte';
   import Donations from '$lib/components/Donations.svelte';
 
-  import { writable } from 'svelte/store';
-
-  let activeTab = writable(1); // Set the default active tab
-
   const tabsContent = [
-    { id: 1, content: TwitterTestimonials, title: 'Twitter / X' },
+    { id: 1, content: XTestimonials, title: 'X' },
     { id: 2, content: Reviews, title: $t('livetl.testimonials.reviews') },
   ];
 
@@ -72,10 +69,6 @@
 `,
     },
   ];
-
-  function changeActiveTab(tabId: number) {
-    activeTab.set(tabId);
-  }
 </script>
 
 <div
@@ -90,11 +83,11 @@
       </p>
       <div class="space-x-1">
         <a
-          class="btn btn-primary rounded-xl font-semibold text-base-100"
+          class="btn-primary btn rounded-xl font-semibold text-base-100"
           href="/livetl/install">{$t('common.install')}</a
         >
         <a
-          class="btn btn-outline btn-secondary rounded-xl font-semibold"
+          class="btn-outline btn-secondary btn rounded-xl font-semibold"
           href="/livetl/about">{$t('common.manual')}</a
         >
       </div>
@@ -129,30 +122,7 @@
 <div class="hero min-h-screen snap-start bg-transparent">
   <div class="hero-content">
     <div class="space-y-8">
-      <h1 class="text-center text-5xl font-bold text-secondary">
-        {$t('livetl.testimonials.title')}
-      </h1>
-      <div class="tabs mx-auto w-max decoration-secondary">
-        {#each tabsContent as tab}
-          <a
-            class="tab tab-bordered transition duration-500 ease-in-out"
-            class:tab-active={$activeTab === tab.id}
-            on:click={() => changeActiveTab(tab.id)}
-            href="#{tab.title}"
-          >
-            {@html tab.title}
-          </a>
-        {/each}
-      </div>
-
-      <div class="transition duration-500 ease-in-out">
-        <!-- Tab Content -->
-        {#each tabsContent as tab}
-          {#if $activeTab === tab.id}
-            <svelte:component this={tab.content} />
-          {/if}
-        {/each}
-      </div>
+      <Opinions {tabsContent} title={$t('livetl.testimonials.title')} />
     </div>
   </div>
 </div>
