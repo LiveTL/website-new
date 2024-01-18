@@ -1,13 +1,13 @@
-import type { LayoutLoad } from './$types';
+import { addTranslations, setLocale, setRoute } from '$lib/translation';
 
-import { loadTranslations } from '$lib/translation';
+export const load = async ({ data }) => {
+	const { i18n, translations } = data;
+	const { locale, route } = i18n;
 
-export const ssr = false;
+	addTranslations(translations);
 
-export const load = (async ({ url }) => {
-  const { pathname } = url;
-  const initLocale = localStorage.getItem('lang') || 'en';
+	await setRoute(route);
+	await setLocale(locale);
 
-  await loadTranslations(initLocale, pathname);
-  return {};
-}) satisfies LayoutLoad;
+	return i18n;
+};

@@ -1,7 +1,21 @@
 import i18n from 'sveltekit-i18n';
+import { dev } from '$app/environment';
+
+export const defaultLocale = 'en';
 
 /** @type {import('sveltekit-i18n').Config} */
 const config = {
+  log: {
+    level: dev ? 'debug' : 'warn',
+  },
+  translations: {
+    en: {
+      name: 'English',
+    },
+    ja: {
+      name: '日本語',
+    },
+  },
   loaders: [
     // English
     {
@@ -124,13 +138,12 @@ const config = {
       routes: ['/hyperchat', '/hyperchat/about', '/hyperchat/install'],
       loader: async () =>
         (await import('./translations/ja/hyperchat.json')).default,
-    }
+    },
   ],
-
-  preprocess: 'preserveArrays',
+  preprocess: "preserveArrays",
 };
 
-export const { t, locale, locales, loading, loadTranslations } = new i18n({
+// @ts-ignore
+export const { t, loading, locales, locale, translations, loadTranslations, addTranslations, setLocale, setRoute } = new i18n({
   ...config,
-  preprocess: "full",
 });
