@@ -1,6 +1,4 @@
 <script lang="ts">
-  import type { PageData } from './$types';
-
   import hyperChatLogo from '$lib/assets/hyperchat/logo.png';
 
   const downloadLinks = {
@@ -11,8 +9,6 @@
 
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Googlechrome, Firefoxbrowser } from '@steeze-ui/simple-icons';
-
-  export let data: PageData;
 </script>
 
 <div class="container mx-auto">

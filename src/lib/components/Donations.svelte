@@ -16,6 +16,7 @@
       </h1>
 
       {@html $t('livetl.support.text', {
+        //@ts-ignore
         openCollectiveURL,
         githubSponsorsURL,
       })}
