@@ -9,6 +9,14 @@
   import { t } from '$lib/translation';
 </script>
 
+<svelte:head>
+  <title>Extensions by LiveTL</title>
+  <meta
+    name="description"
+    content="Free and open source extensions, used and loved by thousands of users around the world."
+  />
+</svelte:head>
+
 <div class="hero min-h-screen bg-gradient-to-b from-base-100 to-base-200">
   <div class="hero-content text-center">
     <div class="max-w-4xl space-y-8 py-8">
