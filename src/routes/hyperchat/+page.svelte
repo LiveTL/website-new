@@ -39,6 +39,11 @@
   ];
 </script>
 
+<svelte:head>
+  <title>HyperChat</title>
+  <meta name="description" content={$t('hyperchat.tagline')} />
+</svelte:head>
+
 <div class="hero relative min-h-[75vh] bg-slate-900">
   <video
     autoplay
