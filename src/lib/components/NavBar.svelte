@@ -45,10 +45,10 @@
       bind:value={$locale}
       on:change={handleChange}
     >
-    <!-- A bit ugly for now, FIXME: use $t instead -->
+      <!-- A bit ugly for now, FIXME: use $t instead -->
       {#each $locales as value}
         <option {value} selected={$locale === value}
-          >{transl[value]['name']}</option 
+          >{transl[value]['name']}</option
         >
       {/each}
     </select>

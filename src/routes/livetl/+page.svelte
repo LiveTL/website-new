@@ -83,11 +83,11 @@
       </p>
       <div class="space-x-1">
         <a
-          class="btn-primary btn rounded-xl font-semibold text-base-100"
+          class="btn btn-primary rounded-xl font-semibold text-base-100"
           href="/livetl/install">{$t('common.install')}</a
         >
         <a
-          class="btn-outline btn-secondary btn rounded-xl font-semibold"
+          class="btn btn-outline btn-secondary rounded-xl font-semibold"
           href="/livetl/about">{$t('common.manual')}</a
         >
       </div>

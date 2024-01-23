@@ -4,7 +4,9 @@
   import { t } from '$lib/translation';
   import type { Parser } from 'sveltekit-i18n';
 
-  const contactDescription = { discordServerUrl: DISCORD_SERVER_URL } as Parser.PayloadDefault;
+  const contactDescription = {
+    discordServerUrl: DISCORD_SERVER_URL,
+  } as Parser.PayloadDefault;
 </script>
 
 <div class="container mx-auto px-4 py-12 sm:px-8">

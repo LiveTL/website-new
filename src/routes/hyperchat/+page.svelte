@@ -59,7 +59,11 @@
 
   <div class="hero-content relative text-center">
     <div class="max-w-md">
-      <enhanced:img src={hyperChatLogo} alt="HyperChat Logo" class="mx-auto w-48" />
+      <enhanced:img
+        src={hyperChatLogo}
+        alt="HyperChat Logo"
+        class="mx-auto w-48"
+      />
       <div class="my-2 text-7xl font-bold tracking-wide text-[#ff0000]">
         {@html $t('hyperchat.title')}
       </div>

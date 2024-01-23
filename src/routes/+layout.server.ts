@@ -1,4 +1,9 @@
-import { locales, loadTranslations, translations, defaultLocale } from '$lib/translation';
+import {
+  locales,
+  loadTranslations,
+  translations,
+  defaultLocale,
+} from '$lib/translation';
 import { host } from '../config.json';
 import type { LayoutServerLoad } from './$types';
 
@@ -10,7 +15,9 @@ export const load = (async ({ url, cookies, request }) => {
   let locale = (cookies.get('lang') || '').toLowerCase();
 
   if (!locale) {
-    locale = `${`${request.headers.get('accept-language')}`.match(/[a-zA-Z]+?(?=-|_|,|;)/)}`.toLowerCase();
+    locale = `${`${request.headers.get('accept-language')}`.match(
+      /[a-zA-Z]+?(?=-|_|,|;)/
+    )}`.toLowerCase();
   }
 
   const supportedLocales = locales.get().map((l) => l.toLowerCase());
@@ -19,7 +26,7 @@ export const load = (async ({ url, cookies, request }) => {
     locale = defaultLocale;
   }
 
-  await loadTranslations(locale, pathname)
+  await loadTranslations(locale, pathname);
 
   const thumbnailImgURL = new URL(LiveTLLogo, host).toString();
 
@@ -27,6 +34,6 @@ export const load = (async ({ url, cookies, request }) => {
     i18n: { locale, route: pathname },
     translations: translations.get(), // `translations` on server contain all translations loaded by different clients
     host,
-    thumbnailImgURL
+    thumbnailImgURL,
   };
 }) satisfies LayoutServerLoad;
