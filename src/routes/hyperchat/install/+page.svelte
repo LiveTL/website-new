@@ -1,5 +1,5 @@
 <script lang="ts">
-  import hyperChatLogo from '$lib/assets/hyperchat/logo.png';
+  import hyperChatLogo from '$lib/assets/hyperchat/logo.png?enhanced';
 
   const downloadLinks = {
     chrome:
@@ -13,7 +13,7 @@
 
 <div class="container mx-auto">
   <div class="mx-auto max-w-3xl px-8">
-    <img
+    <enhanced:img
       src={hyperChatLogo}
       alt="LiveTL Logo"
       class="mx-auto w-48 rounded-2xl"

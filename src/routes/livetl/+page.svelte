@@ -1,7 +1,7 @@
 <script lang="ts">
   import { t } from '$lib/translation';
 
-  import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png';
+  import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png?enhanced';
 
   import Opinions from '$lib/components/Opinions.svelte';
   import XTestimonials from '$lib/components/XTestimonials.svelte';
@@ -97,7 +97,7 @@
 
 <div class="hero h-[75vh] snap-start bg-transparent">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <img
+    <enhanced:img
       src={LiveTLPekoKiaraShowcaseDesktop}
       alt="LiveTL Chat demo in dedicated window."
       class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl"
