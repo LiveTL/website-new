@@ -71,6 +71,13 @@
   ];
 </script>
 
+<style>
+  .showcase-img {
+    width: 1280px;
+		height: auto;
+  }
+</style>
+
 <div
   class="hero min-h-[60vh] snap-start bg-gradient-to-tr from-info to-accent bg-scroll"
 >
@@ -100,7 +107,8 @@
     <enhanced:img
       src={LiveTLPekoKiaraShowcaseDesktop}
       alt="LiveTL Chat demo in dedicated window."
-      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl"
+      sizes="min(1680px, 90vw)"
+      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl showcase-img"
     />
     <div>
       <h1 class="text-5xl font-bold text-secondary">
