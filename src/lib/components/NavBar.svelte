@@ -1,6 +1,6 @@
 <script lang="ts">
   import { locale, locales, translations } from '$lib/translation';
-  import LiveTLLogo from '$lib/assets/livetl/logo.png';
+  import LiveTLLogo from '$lib/assets/livetl/logo-big.png?enhanced';
 
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Language } from '@steeze-ui/heroicons';
@@ -26,7 +26,7 @@
     <a
       href="/"
       class="min-w-fit transition duration-300 ease-in-out hover:scale-105 hover:opacity-90"
-      ><img
+      ><enhanced:img
         src={LiveTLLogo}
         class="btn btn-square m-1 rounded-sm"
         alt="LiveTL logo"
@@ -45,10 +45,10 @@
       bind:value={$locale}
       on:change={handleChange}
     >
-    <!-- A bit ugly for now, FIXME: use $t instead -->
+      <!-- A bit ugly for now, FIXME: use $t instead -->
       {#each $locales as value}
         <option {value} selected={$locale === value}
-          >{transl[value]['name']}</option 
+          >{transl[value]['name']}</option
         >
       {/each}
     </select>

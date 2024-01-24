@@ -1,7 +1,7 @@
 <script lang="ts">
   import { t } from '$lib/translation';
 
-  import LiveTLLogoBig from '$lib/assets/livetl/logo-big.png';
+  import LiveTLLogoBig from '$lib/assets/livetl/logo-big.png?enhanced';
 
   const downloadLinks = {
     chrome:
@@ -21,7 +21,7 @@
 
 <div class="container mx-auto">
   <div class="mx-auto max-w-3xl px-8">
-    <img
+    <enhanced:img
       src={LiveTLLogoBig}
       alt="LiveTL Logo"
       class="mx-auto my-8 w-48 rounded-2xl shadow-2xl shadow-info"

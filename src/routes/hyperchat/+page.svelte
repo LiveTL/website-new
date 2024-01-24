@@ -1,6 +1,6 @@
 <script lang="ts">
   import hyperChatBrowserDemo from '$lib/assets/hyperchat/browser-demo-peko-kiara.png';
-  import hyperChatLogo from '$lib/assets/hyperchat/logo.png';
+  import hyperChatLogo from '$lib/assets/hyperchat/logo.png?enhanced';
   import CustomisablesHero from '$lib/components/CustomisablesHero.svelte';
 
   import { t } from '$lib/translation';
@@ -59,7 +59,12 @@
 
   <div class="hero-content relative text-center">
     <div class="max-w-md">
-      <img src={hyperChatLogo} alt="HyperChat Logo" class="mx-auto w-48" />
+      <enhanced:img
+        src={hyperChatLogo}
+        alt="HyperChat Logo"
+        sizes="100px"
+        class="mx-auto w-48"
+      />
       <div class="my-2 text-7xl font-bold tracking-wide text-[#ff0000]">
         {@html $t('hyperchat.title')}
       </div>
@@ -98,6 +103,9 @@
         src={hyperChatBrowserDemo}
         alt="HyperChat demo in browser."
         class="rounded-md shadow-2xl shadow-primary"
+        width="1024"
+        height="640"
+        loading="lazy"
       />
     </div>
   </div>

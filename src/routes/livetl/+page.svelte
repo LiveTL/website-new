@@ -1,7 +1,7 @@
 <script lang="ts">
   import { t } from '$lib/translation';
 
-  import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png';
+  import LiveTLPekoKiaraShowcaseDesktop from '$lib/assets/livetl/pekokiara-showcase-desktop.png?enhanced';
 
   import Opinions from '$lib/components/Opinions.svelte';
   import XTestimonials from '$lib/components/XTestimonials.svelte';
@@ -71,6 +71,13 @@
   ];
 </script>
 
+<style>
+  .showcase-img {
+    width: 1280px;
+		height: auto;
+  }
+</style>
+
 <div
   class="hero min-h-[60vh] snap-start bg-gradient-to-tr from-info to-accent bg-scroll"
 >
@@ -83,11 +90,11 @@
       </p>
       <div class="space-x-1">
         <a
-          class="btn-primary btn rounded-xl font-semibold text-base-100"
+          class="btn btn-primary rounded-xl font-semibold text-base-100"
           href="/livetl/install">{$t('common.install')}</a
         >
         <a
-          class="btn-outline btn-secondary btn rounded-xl font-semibold"
+          class="btn btn-outline btn-secondary rounded-xl font-semibold"
           href="/livetl/about">{$t('common.manual')}</a
         >
       </div>
@@ -97,10 +104,11 @@
 
 <div class="hero h-[75vh] snap-start bg-transparent">
   <div class="hero-content flex-col lg:flex-row-reverse">
-    <img
+    <enhanced:img
       src={LiveTLPekoKiaraShowcaseDesktop}
       alt="LiveTL Chat demo in dedicated window."
-      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl"
+      sizes="min(1680px, 90vw)"
+      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl showcase-img"
     />
     <div>
       <h1 class="text-5xl font-bold text-secondary">

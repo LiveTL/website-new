@@ -1,5 +1,5 @@
 <script lang="ts">
-  import LiveTLLogo from '$lib/assets/livetl/logo.png';
+  import LiveTLLogo from '$lib/assets/livetl/logo-big.png?enhanced';
   import { t } from '$lib/translation';
 
   import { DISCORD_SERVER_URL, GITHUB_ORG_URL } from '../../const';
@@ -73,7 +73,7 @@
 <footer class="footer bg-neutral p-10 text-base-200">
   <div>
     <!-- svelte-ignore a11y-missing-attribute -->
-    <img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
+    <enhanced:img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
     <p>
       LiveTL Developers © 2023<br />For Vtuber fans, by Vtuber fans.
     </p>
@@ -94,7 +94,7 @@
     <div>
       <span class="footer-title text-base-100">{title}</span>
       {#each links as link}
-        <a class="link-hover link" href={link.url}>{link.name}</a>
+        <a class="link link-hover" href={link.url}>{link.name}</a>
       {/each}
     </div>
   {/each}

@@ -140,10 +140,20 @@ const config = {
         (await import('./translations/ja/hyperchat.json')).default,
     },
   ],
-  preprocess: "preserveArrays",
+  preprocess: 'preserveArrays',
 };
 
-// @ts-ignore
-export const { t, loading, locales, locale, translations, loadTranslations, addTranslations, setLocale, setRoute } = new i18n({
+export const {
+  t,
+  loading,
+  locales,
+  locale,
+  translations,
+  loadTranslations,
+  addTranslations,
+  setLocale,
+  setRoute,
+  // @ts-ignore
+} = new i18n({
   ...config,
 });
