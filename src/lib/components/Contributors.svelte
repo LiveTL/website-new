@@ -2,11 +2,14 @@
   import { fly } from 'svelte/transition';
 
   export let contributors = [];
+  export let randomize = false;
+
+  $: if (randomize) {
+    contributors = contributors.sort(() => Math.random() - 0.5);
+  }
 </script>
 
-<div class="container mx-auto py-8">
-  <!-- <h1 class="text-4xl font-bold mb-8">GitHub Contributors</h1> -->
-
+<div class="container">
   <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
     {#each contributors as contributor, i}
       <div

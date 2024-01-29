@@ -20,18 +20,18 @@
 </script>
 
 <div class="container mx-auto">
-  <div class="mx-auto max-w-3xl px-8">
+  <div class="mx-auto max-w-3xl space-y-8 px-8">
     <enhanced:img
       src={LiveTLLogoBig}
       alt="LiveTL Logo"
       class="mx-auto my-8 w-48 rounded-2xl shadow-2xl shadow-info"
     />
+
     <h1 class="mb-4 text-center text-4xl font-bold">
       {@html $t('livetl.install.title')}
     </h1>
-    <div
-      class="flex flex-col justify-center space-y-4 py-4 sm:flex-row sm:space-y-0"
-    >
+
+    <div class="flex flex-col justify-center sm:flex-row sm:space-y-0">
       <a
         href={downloadLinks['chrome']}
         target="_blank"
@@ -60,26 +60,29 @@
       >
     </div>
 
-    <h2 class="my-4 text-center text-2xl font-bold">
-      {$t('livetl.install.more_options')}
-    </h2>
-    <div
-      class="flex flex-col justify-center space-y-4 py-4 sm:flex-row sm:space-y-0"
-    >
-      <a
-        href={downloadLinks['android']}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="btn mr-4 max-w-xs rounded-full text-base-100"
-        ><Icon
-          src={Googleplay}
-          theme="solid"
-          size="18"
-          class="mr-2 justify-end"
-        />Google Play</a
+    <section id="install-options">
+      <h2 class="text-center text-2xl font-bold">
+        {$t('livetl.install.more_options')}
+      </h2>
+      <div
+        class="flex flex-col justify-center space-y-4 py-4 sm:flex-row sm:space-y-0"
       >
-    </div>
-    <div class="mx-auto mt-8 space-y-8 text-center text-base">
+        <a
+          href={downloadLinks['android']}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn mr-4 max-w-xs rounded-full text-base-100"
+          ><Icon
+            src={Googleplay}
+            theme="solid"
+            size="18"
+            class="mr-2 justify-end"
+          />Google Play</a
+        >
+      </div>
+    </section>
+
+    <div class="mx-auto space-y-2 text-center text-base">
       <p>{@html $t('livetl.install.license')}</p>
       <p>{@html $t('livetl.install.source_code')}</p>
     </div>

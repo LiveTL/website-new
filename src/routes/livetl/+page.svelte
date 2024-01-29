@@ -71,13 +71,6 @@
   ];
 </script>
 
-<style>
-  .showcase-img {
-    width: 1280px;
-		height: auto;
-  }
-</style>
-
 <div
   class="hero min-h-[60vh] snap-start bg-gradient-to-tr from-info to-accent bg-scroll"
 >
@@ -108,7 +101,7 @@
       src={LiveTLPekoKiaraShowcaseDesktop}
       alt="LiveTL Chat demo in dedicated window."
       sizes="min(1680px, 90vw)"
-      class="w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl showcase-img"
+      class="showcase-img w-full shadow-2xl sm:max-w-2xl md:max-w-3xl xl:max-w-4xl"
     />
     <div>
       <h1 class="text-5xl font-bold text-secondary">
@@ -136,3 +129,10 @@
 </div>
 
 <Donations />
+
+<style>
+  .showcase-img {
+    width: 1280px;
+    height: auto;
+  }
+</style>
