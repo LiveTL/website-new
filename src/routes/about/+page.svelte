@@ -11,7 +11,7 @@
 </script>
 
 <div
-  class="container mx-auto max-w-xs space-y-8 px-4 py-12 sm:px-8 md:max-w-lg lg:max-w-xl"
+  class="container mx-auto max-w-md space-y-8 px-4 py-12 sm:px-8 md:max-w-lg lg:max-w-2xl"
 >
   <section class="mx-auto space-y-8">
     <h1 class="text-5xl font-bold">About LiveTL</h1>
@@ -27,7 +27,7 @@
     </p>
   </section>
 
-  <div class="mx-auto max-w-lg space-y-4">
+  <div class="mx-auto space-y-4">
     <h2 class="text-4xl font-bold">Team</h2>
     <p class="text-lg">
       {$t('about.team_desc')}

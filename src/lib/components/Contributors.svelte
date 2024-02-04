@@ -10,7 +10,7 @@
 </script>
 
 <div class="container">
-  <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
+  <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
     {#each contributors as contributor, i}
       <div
         in:fly|global={{ y: 300, duration: 500, delay: i * 100 }}
