@@ -11,5 +11,9 @@
   "about_us": "About Us",
   "contact": "Contact",
   "donations": "Donations",
-  "privacy_policy": "Privacy Policy"
+  "privacy_policy": "Privacy Policy",
+  "install.license": "This software is available under a <a href=\"https://choosealicense.com/licenses/agpl-3.0/\" class=\"link link-secondary\">AGPL-3.0</a> license.",
+  "install.source_code": "Source code is available on <a href=\"https://github.com/LiveTL/LiveTL\" class=\"link link-secondary\">Github</a>.",
+  "install.chrome": "Download for Chrome",
+  "install.firefox": "Download for Firefox"
 }

@@ -11,5 +11,9 @@
   "about_us": "開発チームについて",
   "contact": "連絡先",
   "donations": "ドネーション",
-  "privacy_policy": "プライバシー・ポリシー"
+  "privacy_policy": "プライバシー・ポリシー",
+  "install.license": "このソフトウェアは<a href=\"https://choosealicense.com/licenses/agpl-3.0/\" class=\"link link-secondary\">AGPL-3.0</a>ライセンスの下提供されています。",
+  "install.source_code": "ソースコードは<a href=\"https://github.com/LiveTL/LiveTL\" class=\"link link-secondary\">Github</a>にて開示しています。",
+  "install.chrome": "Chrome 用ダウンロード",
+  "install.firefox": "Firefox 用ダウンロード"
 }
