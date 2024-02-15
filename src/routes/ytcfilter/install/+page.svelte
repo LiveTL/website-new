@@ -39,7 +39,7 @@
 
     <section class="flex flex-col gap-y-8" id="download-links-release">
       <div class="space-y-4">
-        <h2 class="text-center text-2xl">v2</h2>
+        <h2 class="text-center text-2xl">YtcFilter v2</h2>
         <a
           href={downloadLinks['v2']['chrome']}
           target="_blank"
@@ -69,7 +69,7 @@
       </div>
 
       <div class="flex flex-col justify-center space-y-4">
-        <h2 class="text-center text-2xl">beta</h2>
+        <h2 class="text-center text-2xl">YtcFilter v3 Beta</h2>
         <a
           href={downloadLinks['v3']['beta']}
           target="_blank"
