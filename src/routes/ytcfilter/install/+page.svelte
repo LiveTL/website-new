@@ -38,13 +38,13 @@
     </h1>
 
     <section class="flex flex-col gap-y-8" id="download-links-release">
-      <div class="space-y-4">
+      <div class="flex flex-col items-center justify-center space-y-4">
         <h2 class="text-center text-2xl">YtcFilter v2</h2>
         <a
           href={downloadLinks['v2']['chrome']}
           target="_blank"
           rel="noopener noreferrer"
-          class="btn btn-primary mr-4 rounded-full text-base-100"
+          class="btn btn-primary rounded-full text-base-100"
         >
           <Icon
             src={Googlechrome}
