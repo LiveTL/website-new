@@ -1,4 +1,6 @@
 {
-  "subtitle": "The most powerful and intuitive YouTube chat filter extension ever.",
-  "cat_btn": "Join Beta"
+  "subtitle": "The most powerful and intuitive YouTube chat filter extension.",
+  "cat_btn": "Join Beta",
+  "install.title": "Install YtcFilter",
+  "install.beta": "Download on Github"
 }
