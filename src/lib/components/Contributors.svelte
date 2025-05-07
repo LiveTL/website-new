@@ -1,12 +1,20 @@
 <script lang="ts">
+  import { run } from 'svelte/legacy';
+
   import { fly } from 'svelte/transition';
 
-  export let contributors = [];
-  export let randomize = false;
-
-  $: if (randomize) {
-    contributors = contributors.sort(() => Math.random() - 0.5);
+  interface Props {
+    contributors?: any;
+    randomize?: boolean;
   }
+
+  let { contributors = $bindable([]), randomize = false }: Props = $props();
+
+  run(() => {
+    if (randomize) {
+      contributors = contributors.sort(() => Math.random() - 0.5);
+    }
+  });
 </script>
 
 <div class="container">

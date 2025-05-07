@@ -1,16 +1,24 @@
 <script lang="ts">
-  /**
+  
+
+  interface Props {
+    /**
    * A component to render a hero with a showcase of customisable features.
    * @component CustomisablesHero
    * @prop {Array} customisables - an array of customisable features to display
    */
+    headingStyle?: string;
+    customisables?: any;
+    titleText?: string;
+    subtitleText?: string;
+  }
 
-  export let headingStyle =
-    'mt-2 bg-gradient-to-tr from-secondary to-accent bg-clip-text text-5xl font-bold tracking-tight text-transparent';
-  export let customisables = [];
-  export let titleText = 'Customizable';
-  export let subtitleText =
-    'Make LiveTL look and behave exactly the way you want.';
+  let {
+    headingStyle = 'mt-2 bg-gradient-to-tr from-secondary to-accent bg-clip-text text-5xl font-bold tracking-tight text-transparent',
+    customisables = [],
+    titleText = 'Customizable',
+    subtitleText = 'Make LiveTL look and behave exactly the way you want.'
+  }: Props = $props();
 </script>
 
 <div class="h-fit bg-black py-24 sm:py-32">

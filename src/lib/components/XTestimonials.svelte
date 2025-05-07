@@ -10,7 +10,7 @@
   import Pippa from '$lib/assets/x_profile_pics/pippa.jpg';
   import Lua from '$lib/assets/x_profile_pics/lua.jpg';
 
-  export let tweets = [
+  let { tweets = [
     {
       authorName: 'pipkinpippa',
       avatarImg: Pippa,
@@ -24,7 +24,7 @@
       sourceURL:
         'https://twitter.com/LuaVLucky/status/1362657273063960579?s=20',
     },
-  ];
+  ] } = $props();
 </script>
 
 <div class="flex flex-col space-y-4">
