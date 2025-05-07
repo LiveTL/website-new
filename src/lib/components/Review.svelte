@@ -2,9 +2,14 @@
   import { Icon } from '@steeze-ui/svelte-icon';
   import { Star } from '@steeze-ui/heroicons';
 
-  export let authorName, text: string;
 
   import { fade } from 'svelte/transition';
+  interface Props {
+    authorName: any;
+    text: string;
+  }
+
+  let { authorName, text }: Props = $props();
 </script>
 
 <div

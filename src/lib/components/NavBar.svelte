@@ -43,7 +43,7 @@
     <select
       class="select select-bordered select-primary max-w-xs text-primary"
       bind:value={$locale}
-      on:change={handleChange}
+      onchange={handleChange}
     >
       <!-- A bit ugly for now, FIXME: use $t instead -->
       {#each $locales as value}

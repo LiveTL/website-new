@@ -72,7 +72,7 @@
 
 <footer class="footer bg-neutral p-10 text-base-200">
   <div>
-    <!-- svelte-ignore a11y-missing-attribute -->
+    <!-- svelte-ignore a11y_missing_attribute -->
     <enhanced:img src={LiveTLLogo} alt="LiveTL Logo" class="w-10" />
     <p>
       LiveTL Developers © 2023<br />For Vtuber fans, by Vtuber fans.

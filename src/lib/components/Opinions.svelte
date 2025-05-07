@@ -1,8 +1,12 @@
 <script lang="ts">
   import { writable } from 'svelte/store';
 
-  export let title = 'What do people say?';
-  export let tabsContent = [];
+  interface Props {
+    title?: string;
+    tabsContent?: any;
+  }
+
+  let { title = 'What do people say?', tabsContent = [] }: Props = $props();
 
   let activeTab = writable(1); // Set the default active tab
 
@@ -19,7 +23,7 @@
     <a
       class="tab tab-bordered transition duration-500 ease-in-out"
       class:tab-active={$activeTab === tab.id}
-      on:click={() => changeActiveTab(tab.id)}
+      onclick={() => changeActiveTab(tab.id)}
       href="#{tab.title}"
     >
       {@html tab.title}
@@ -31,7 +35,7 @@
   <!-- Tab Content -->
   {#each tabsContent as tab}
     {#if $activeTab === tab.id}
-      <svelte:component this={tab.content} />
+      <tab.content />
     {/if}
   {/each}
 </div>

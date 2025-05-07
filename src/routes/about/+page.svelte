@@ -5,7 +5,11 @@
 
   import { t } from '$lib/translation';
 
-  export let data: PageData;
+  interface Props {
+    data: PageData;
+  }
+
+  let { data }: Props = $props();
 
   const { contributors } = data;
 </script>
