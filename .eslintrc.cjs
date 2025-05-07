@@ -89,13 +89,4 @@ module.exports = {
     // 'svelte3/typescript': true,
     // 'svelte3/named-blocks': true
   },
-  ignorePatterns: [
-    'package.json',
-    'package-lock.json',
-    'public',
-    'node_modules',
-    'dist',
-    'tsconfig.json',
-    '*.cjs',
-  ],
 };
